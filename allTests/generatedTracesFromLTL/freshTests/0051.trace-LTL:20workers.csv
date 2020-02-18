@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/freshTests/0051.trace,LTL,1587.5584522210993,6,((! x0) U ((F x1) -> x1))

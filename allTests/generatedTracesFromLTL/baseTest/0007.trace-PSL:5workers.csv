@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/baseTest/0007.trace,PSL,1602.644627571106,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))

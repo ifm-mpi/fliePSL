@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/freshTests2/0067.trace,LTL,19.916718191001564,6,(! ((F x0) U (x1 & (F x0))))

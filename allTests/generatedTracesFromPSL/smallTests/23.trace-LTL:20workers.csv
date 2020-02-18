@@ -1,0 +1,1 @@
+allTests/generatedTracesFromPSL/smallTests/23.trace,LTL,772.3130900617689,7,((X x0) & ((X x0) U (G (x0 -> (X (X x0))))))

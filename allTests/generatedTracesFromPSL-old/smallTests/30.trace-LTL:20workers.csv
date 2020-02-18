@@ -1,0 +1,1 @@
+allTests/generatedTracesFromPSL/smallTests/30.trace,LTL,5.727534005884081,6,((F (X x0)) U (! (x0 | (X x0))))

@@ -1,0 +1,1 @@
+allTests/generatedTracesFromPSL/smallTests/16.trace,LTL,1.7344702016562223,4,((X x0) -> (X (X x0)))

@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/freshTests/0102.trace,PSL,1139.782570362091,7,((x0 & (F x1)) | (G (x0 -> (F x1))))

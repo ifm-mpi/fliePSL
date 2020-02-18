@@ -1,0 +1,1 @@
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:5;vars:5.trace,PSL,403.71854639053345,6,((X ((X x1) -> x3)) | x1)

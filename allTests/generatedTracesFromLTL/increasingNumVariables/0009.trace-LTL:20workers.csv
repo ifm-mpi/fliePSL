@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/increasingNumVariables/0009.trace,LTL,1555.3736809412949,7,(G ((x1 & x2) -> (G x0)))

@@ -1,0 +1,391 @@
+FileName,PSL-Time taken(2loops+unfoldedTraces),PSL-Size(2loops+unfoldedTraces),PSL-Formula Generated(2loops+unfoldedTraces),LTL-Time taken,LTL-Size,LTL-Formula Generated,Frequency of Size DataPoint
+allTests/generatedTracesFromPSL/smallTests/27.trace,0.023092031478881836,1,x0,0.02408469095826149,1,x0,2
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:15;vars:3.trace,0.09740638732910156,1,true,1.1305024782195687,1,true,2
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:11;vars:4.trace,0.09941244125366211,1,true,0.7341960063204169,2,(F x1),1
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:3;vars:2.trace,0.15196609497070312,2,(X x0),0.20325635932385921,2,(X x0),10
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:5;vars:2.trace,0.1668074131011963,2,(X x0),0.19300935603678226,2,(X x0),10
+allTests/generatedTracesFromPSL/smallTests/21.trace,0.17745566368103027,2,(G x0),0.1779177561402321,2,(G x0),10
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:5;vars:3.trace,0.35826659202575684,2,(! true),1.3308688504621387,1,false,3
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:5;vars:2.trace,0.36059141159057617,2,(G x0),0.3912266669794917,2,(G x0),10
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:7;vars:3.trace,0.41750311851501465,2,(! true),1.6798834269866347,1,false,3
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:7;vars:2.trace,0.4790005683898926,2,(G x1),0.5450755022466183,2,(G x0),10
+allTests/generatedTracesFromPSL/smallTests/01.trace,0.6256163120269775,3,(x0 -> (G x0)),0.6358998259529471,3,(x0 -> (G x0)),4
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:9;vars:3.trace,0.68617844581604,2,(! true),2.961922955699265,3,(x2 & (! x2)),4
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:11;vars:2.trace,0.7337100505828857,2,(! true),3.3641928425058722,3,(x1 & (! x1)),4
+allTests/generatedTracesFromPSL/smallTests/26.trace,0.761491060256958,4,(G ((X x0) U x0)),0.6297543700784445,4,(G (x0 U (X x0))),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:11;vars:3.trace,0.8112659454345703,2,(! true),3.5047136656939983,3,(x2 & (! x2)),4
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:15;vars:2.trace,0.8205938339233398,2,(! true),0.9012888837605715,2,(G x0),10
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:13;vars:3.trace,0.8342709541320801,2,(G x1),0.9227874176576734,2,(G x2),10
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:15;vars:3.trace,0.9083578586578369,2,(G x1),0.9742737887427211,2,(G x1),10
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:13;vars:2.trace,0.98441481590271,2,(G x1),0.9868216952309012,2,(G x1),10
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:11;vars:2.trace,1.2221007347106934,3,(F (G x0)),1.2339920364320278,3,(F (G x0)),4
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:11;vars:2.trace,1.2755889892578125,2,(! true),6.071796348318458,3,(x1 & (! x1)),4
+allTests/generatedTracesFromPSL/smallTests/11.trace,1.2920019626617432,4,((x1 U (X x1)) -> (X x1)),1.0672204047441483,4,((x1 U (X x1)) -> (X x1)),32
+allTests/generatedTracesFromPSL/smallTests/06.trace,1.3881597518920898,4,(x0 -> (X x1)),1.2534674424678087,4,(x0 -> (X x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:11;vars:3.trace,1.4009578227996826,2,(! true),6.426072038710117,1,false,3
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:5;vars:1.trace,1.4389989376068115,3,(G (X x0)),1.4088341500610113,3,(G (X x0)),4
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:15;vars:3.trace,1.74853515625,2,(G x0),2.024457319639623,2,(G x0),10
+allTests/generatedTracesFromPSL/smallTests/16.trace,2.0451152324676514,4,(X (x0 -> (X x0))),1.7344702016562223,4,((X x0) -> (X (X x0))),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:11;vars:2.trace,2.9388320446014404,3,(! (G x0)),3.1948519898578525,3,(x0 U (! x0)),4
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:5;vars:3.trace,4.076387882232666,4,((G x0) -> x2),3.6119937179610133,4,((G x0) -> x2),32
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:3;vars:1.trace,4.790597200393677,5,(! (x0 U (X (! x0)))),2.2453973572701216,5,(((X x0) -> x0) -> (G (X x0))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:7;vars:2.trace,6.130584716796875,4,((G x0) -> x1),5.305136261507869,4,((G x0) -> x1),32
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:5;vars:1.trace,6.644646644592285,5,(((X x0) -> x0) -> (G (X x0))),3.7734115161001682,5,(((X x0) -> x0) -> (G (X x0))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:5;vars:2.trace,7.895627021789551,4,(x0 & (G x1)),6.703968691639602,4,(x0 & (G x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/25traces;len:9;vars:2.trace,8.006682872772217,4,((G x1) & x0),6.536109015345573,4,(x0 & (G x1)),32
+allTests/generatedTracesFromPSL/smallTests/29.trace,8.236059188842773,5,((X x0) & (G (x0 U (X x0)))),3.9262531399726868,5,((X x0) & (G (x0 | (X x0)))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:5;vars:3.trace,8.269667625427246,4,(G (x0 & x1)),6.974942728877068,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:9;vars:5.trace,8.915429592132568,4,(x0 -> (x0 U x3)),7.226273741573095,4,(x0 -> (x0 U x3)),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:9;vars:3.trace,9.490824699401855,4,(x0 -> (X x2)),8.381859994493425,4,(x0 -> (X x2)),32
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:7;vars:1.trace,9.723713874816895,5,((G ((X x0) | x0)) & (X x0)),4.621938835829496,5,((X x0) & (G (x0 U (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:5;vars:2.trace,11.721110582351685,4,((x0 . x0) |-> x1),9.621429279446602,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:7;vars:3.trace,11.910662174224854,4,((G x0) & x1),9.628581310622394,4,(x1 & (G x0)),32
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:13;vars:4.trace,12.227176904678345,4,((x3 U x1) -> x1),10.97289704438299,4,((x3 U x1) -> x1),32
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:9;vars:1.trace,12.470717668533325,5,(G (x0 -> (X (X x0)))),5.7164195934310555,5,(G (x0 -> (X (X x0)))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:9;vars:3.trace,14.05608081817627,4,(G (x0 & x1)),11.733796503394842,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:9;vars:2.trace,14.47731065750122,4,(G (x0 & x1)),11.74787354003638,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/smallTests/30.trace,14.68508243560791,6,(x1 U ((! x0) & (X (! x0)))),5.7040881887078285,6,((F (X x0)) U (! (x0 | (X x0)))),6
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:13;vars:3.trace,14.97917103767395,4,((X x0) -> (! x0)),12.35261776484549,4,((X (! x0)) U (! x0)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:5;vars:3.trace,15.843150854110718,4,(G (x1 & x0)),13.73179598711431,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:7;vars:4.trace,16.10463285446167,5,((X (x1 & x3)) -> x3),9.074324613437057,5,(X ((F x3) -> (X (F x3)))),51
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:5;vars:4.trace,17.158079147338867,5,(x2 | (x1 -> x3)),8.224340245127678,5,(x2 | (x1 -> x3)),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:5;vars:1.trace,18.637024402618408,5,((x0 & (X x0)) -> (X (X x0))),9.219463218934834,5,((X x0) -> (x0 -> (X (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:5;vars:5.trace,19.293450117111206,5,((F (G x2)) -> (X x2)),9.659062387421727,5,((F (G x2)) -> (X (G x2))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:3;vars:2.trace,20.02747130393982,5,(X (x0 & (X (X x0)))),12.011279039084911,5,((X x0) & (G ((X x0) U x0))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:5;vars:2.trace,20.874130964279175,5,((x0 & (X x0)) -> (G x0)),9.865930622443557,5,((x0 & (X x0)) -> (G x0)),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:13;vars:2.trace,21.33351230621338,4,(G (x0 & x1)),17.351001143455505,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:13;vars:3.trace,23.538935899734497,4,(G (x1 & x0)),20.042657722719014,4,(x0 & (G x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:5;vars:3.trace,24.104398250579834,4,((x0 . x0) |-> x1),20.015858490020037,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/smallTests/28.trace,27.04023003578186,5,((* (x0 . x0)) |-> x1),9.396945911459625,6,(((X x1) U (X (X x1))) U (! (X x1))),17
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:7;vars:4.trace,28.987281322479248,5,(x0 -> ((X x1) -> x1)),11.088913472369313,5,((X x1) -> (x0 -> x1)),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:7;vars:2.trace,29.974709033966064,5,((x1 | x0) U (G x0)),13.264922553673387,5,((x0 U x1) U (G x0)),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:5;vars:1.trace,31.06601858139038,5,((x0 & (X x0)) -> (X (X x0))),16.195034112781286,5,((x0 & (X x0)) -> (X (x0 & (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:7;vars:2.trace,31.510302782058716,5,(X ((x0 U (X x0)) -> (X x0))),12.802159721963108,5,((x0 & (X x0)) -> (X (x0 & (X x0)))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:9;vars:3.trace,31.82223629951477,4,(G (x0 & x1)),26.239821544848382,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:15;vars:2.trace,32.60823106765747,4,(x0 & (G x1)),24.37272912543267,4,(x1 & (G x0)),32
+allTests/generatedTracesFromPSL/smallTests/12.trace,32.71757769584656,5,(x1 -> (X (x0 -> x1))),18.622067721560597,5,(x1 -> (X (x0 -> x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:9;vars:1.trace,32.8909056186676,5,((x0 U (X x0)) -> (X (x0 U (X x0)))),13.137251142412424,5,(X (x0 -> (x0 U (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:5;vars:4.trace,34.680593490600586,5,(x1 -> (x1 U (! x2))),18.191624733619392,5,(x1 -> (x1 U (! x2))),51
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:9;vars:4.trace,36.0578556060791,4,((x0 . x0) |-> x2),17.508400712162256,5,(x0 -> (x2 | (X x2))),15
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:7;vars:1.trace,36.82886624336243,5,((x0 & (X x0)) -> (X (X x0))),14.854069300927222,5,((x0 & (X x0)) -> (X (X x0))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:11;vars:3.trace,39.45829463005066,4,(x0 & (G x1)),39.68348616268486,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:11;vars:2.trace,41.023025035858154,4,(G (x0 & x1)),33.92601116374135,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:9;vars:3.trace,41.643885374069214,5,(x1 -> ((X x1) -> x2)),16.324320285581052,5,((x1 & (X x1)) -> x2),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:3;vars:2.trace,42.9320912361145,5,((X (X (X x0))) & (X x0)),22.073483963496983,5,(X (x0 & (X (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:7;vars:3.trace,42.97519254684448,4,((x0 . x0) |-> x1),25.94640957377851,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:11;vars:4.trace,44.752010107040405,4,((x1 . x1) |-> x3),19.025885682553053,5,((x1 U (G x3)) -> (G x3)),15
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:7;vars:5.trace,48.76741147041321,5,((x0 . x0) |-> (! x1)),30.670720770955086,6,(X (x1 -> (x0 -> x3))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:11;vars:2.trace,48.82979655265808,5,((F x1) -> (X (X (F x1)))),19.4249528888613,5,((x0 U (X (X x0))) -> (X (X x0))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/50traces;len:7;vars:2.trace,50.32784914970398,5,(x0 U (G (x0 & x1))),21.999508961103857,5,(x0 & (x0 U (G x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:5;vars:2.trace,51.31126403808594,4,((x0 . x0) |-> x1),39.72765603847802,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:7;vars:1.trace,51.500328063964844,5,(((X x0) & x0) -> (X (X x0))),21.570445988327265,5,((X x0) -> (x0 -> (G (X x0)))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:13;vars:2.trace,52.62892246246338,4,((x0 . x0) |-> x1),30.88172688893974,5,((x0 U (X x1)) -> (X x1)),15
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:13;vars:3.trace,53.85698485374451,4,(G (x1 & x0)),48.33168441429734,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:7;vars:3.trace,56.39843034744263,4,(G (x0 & x1)),46.43279046192765,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:7;vars:2.trace,57.10952806472778,4,(G (x1 & x0)),50.40641900524497,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:5;vars:2.trace,63.41066551208496,5,(G (x0 & (X x1))),31.900045125745237,5,(x0 U (G (x0 & x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:5;vars:2.trace,67.01381516456604,5,(x0 -> ((X x0) -> (G x0))),32.35136395506561,5,((x0 U (! (X x0))) -> (! (X x0))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:9;vars:2.trace,69.17397570610046,4,((x0 . x0) |-> x1),34.89302393887192,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:9;vars:2.trace,75.1139075756073,4,(G (x1 & x0)),72.00825623329729,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:11;vars:3.trace,78.62491488456726,5,((x0 . x0) |-> ((x0 . x0) |-> x1)),48.44203360565007,6,((x2 -> x1) U (! x0)),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:7;vars:3.trace,84.94864273071289,4,((x0 . x0) |-> x1),52.61148325446993,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:13;vars:3.trace,86.75836110115051,5,((x0 U (X x2)) -> (X x2)),32.844890027306974,5,((x0 U (X x2)) -> (X x2)),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:9;vars:3.trace,87.53983664512634,4,((x0 . x0) |-> x1),53.21786398999393,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:13;vars:2.trace,89.81599044799805,5,((x0 -> (G x0)) | (X (x0 -> (G x0)))),33.035856295377016,5,((x0 U (X (! x0))) -> (X (! x0))),51
+allTests/generatedTracesFromPSL/smallTests/13.trace,91.07898187637329,5,(x1 -> (X (x0 -> x1))),39.43170747347176,5,(x1 -> (X (x0 -> x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:13;vars:1.trace,103.18240404129028,5,((X x0) -> (x0 -> (G x0))),28.56862473860383,5,((X x0) -> (x0 -> (G x0))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:15;vars:2.trace,105.96572828292847,5,((x0 & (X x0)) -> (X (X x0))),36.75166352279484,5,((x0 & (X x0)) -> (X (X x0))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:7;vars:3.trace,108.28575849533081,5,(G (x0 & (X x1))),46.94373973272741,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:7;vars:2.trace,108.49290418624878,5,(X ((G x1) & x0)),42.43149668723345,5,(X (x0 & (G x1))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:11;vars:3.trace,112.06572031974792,4,(G (x0 & x1)),93.92751093581319,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:9;vars:5.trace,117.71337008476257,5,((X x3) -> (F (X (X x3)))),45.90524512436241,5,((x0 U (G x2)) -> (G x2)),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:15;vars:1.trace,123.76877403259277,5,((x0 & (X x0)) -> (X (X x0))),31.104340926744044,5,((x0 & (X x0)) -> (X (x0 & (X x0)))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/10traces;len:7;vars:2.trace,127.52652740478516,5,((* (true . true)) |-> x0),17.73005569074303,6,(G (x1 U (X (X x0)))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:13;vars:2.trace,127.7015278339386,5,((X (X x0)) & (X (X (X x0)))),32.90353000815958,5,(X ((X x0) & (X (X x0)))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:5;vars:2.trace,131.85388731956482,5,((* (true . true)) |-> x0),50.082382692955434,6,((X x0) & (G (x0 -> (X (X x0))))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:13;vars:3.trace,133.12681889533997,4,(G (x1 & x0)),108.32503684423864,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:11;vars:2.trace,136.03768181800842,4,((x0 . x0) |-> x1),50.52480763848871,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:13;vars:5.trace,158.17238903045654,5,((F (G x2)) -> (x2 -> (G x2))),63.545813497155905,5,((F (G x2)) -> (x2 -> (G x2))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:15;vars:2.trace,160.3509600162506,4,(G (x0 & x1)),129.5231312746182,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:9;vars:2.trace,163.70479202270508,4,(G (x1 & x0)),149.10197679605335,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:5;vars:2.trace,169.06560969352722,5,(x0 -> (X (x0 -> (X x0)))),102.38715182151645,5,((x0 & (X x0)) -> (X (X x0))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:9;vars:2.trace,181.58573818206787,5,(x0 U (G (x1 & x0))),64.32549086678773,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:5;vars:2.trace,187.45556783676147,5,(G (x0 & (X x1))),94.4543783729896,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:5;vars:1.trace,191.30146551132202,5,((* (true . true)) |-> x0),46.27131742518395,6,((X x0) & (G (x0 -> (X (X x0))))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:5;vars:3.trace,197.45970058441162,5,(G (x0 & (X x1))),88.97016403637826,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:7;vars:1.trace,200.70146322250366,5,((* (true . true)) |-> x0),139.43020438589156,7,((x0 -> (x0 & (X (X x0)))) & (X (x0 & (X (X x0))))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:15;vars:2.trace,200.9001269340515,4,((x0 . x0) |-> x1),77.80113653838634,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:11;vars:3.trace,218.18638014793396,4,(G (x0 & x1)),191.1346696605906,4,(G (x0 & x1)),32
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:5;vars:2.trace,221.91902875900269,5,((* (true . true)) |-> x0),1288.010661191307,7,((X x0) & (G ((X (X (X x0))) U x0))),17
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:7;vars:3.trace,252.8743417263031,5,((x0 . x1) |-> x2),38.33482708130032,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:7;vars:3.trace,267.6801669597626,5,((* (x0 . x0)) |-> x1),141.51899604965,7,((x0 & (X x0)) -> (G (x0 -> x1))),17
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:5;vars:3.trace,291.7855908870697,5,((x0 . x1) |-> x2),46.4962481148541,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/smallTests/22.trace,293.5564980506897,5,((* (true . true)) |-> x0),224.6766950506717,7,((X x0) & (G (x0 U (X (X (X x0)))))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:11;vars:3.trace,299.65324902534485,5,((x0 . x0) |-> (G x1)),110.39206826686859,6,((X x0) -> (x0 -> (G x1))),17
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:5;vars:4.trace,303.24207305908203,5,((x0 . x1) |-> x2),53.10315991193056,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:11;vars:2.trace,306.3239688873291,4,((x0 . x0) |-> x1),109.60608516819775,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:5;vars:2.trace,334.36483335494995,5,((* (x0 . x0)) |-> x1),618.4338708845899,7,((X (x0 -> x1)) U (x0 -> (G x1))),17
+allTests/generatedTracesFromPSL/smallTests/07.trace,342.68349504470825,5,((* (x0 . x0)) |-> x1),233.42755887564272,7,((X (x0 -> x1)) U (x0 -> (G x1))),17
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:5;vars:3.trace,355.7020614147186,6,((x0 . x1) |-> (X x2)),65.73780491575599,7,((x0 & (X x1)) -> (G x2)),2
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:13;vars:2.trace,367.46444749832153,5,((X x1) & (G x0)),112.69686411879957,5,((G x0) & (X x1)),51
+allTests/generatedTracesFromPSL/smallTests/02.trace,369.6748700141907,6,(x0 -> (G (x0 -> (X (X x0))))),92.50310877803713,6,(x0 -> (G (x0 -> (X (X x0))))),6
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:5;vars:5.trace,403.71854639053345,6,((X ((X x1) -> x3)) | x1),105.02470752224326,6,((x3 -> x1) | (x3 U (X x3))),6
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:7;vars:3.trace,437.37154960632324,5,((x0 . x1) |-> x2),73.52551237028092,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:9;vars:3.trace,472.04146814346313,5,(x0 U (G (x1 & x0))),196.4540334502235,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:9;vars:1.trace,481.5677716732025,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:15;vars:1.trace,506.58031725883484,5,((x0 & (X x0)) -> (X (X x0))),121.43688932992518,5,(x0 -> ((X x0) -> (X (X x0)))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:7;vars:1.trace,508.85616087913513,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:11;vars:5.trace,513.5681159496307,5,((x0 . x1) |-> x2),69.93721554428339,6,((X (X x4)) | ((F x4) -> (X x4))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:9;vars:2.trace,527.1977136135101,5,((* (x0 . x0)) |-> x1),534.9161954540759,7,((x0 U (x0 & (! (x0 U x1)))) -> (x0 & (! (x0 U x1)))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:7;vars:2.trace,532.8149774074554,5,((* (true . true)) |-> x0),1604.214055008255,7,((X x0) U ((X (X x0)) & (G ((X (X x0)) -> x0)))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:15;vars:2.trace,541.1811397075653,4,((x0 . x0) |-> x1),215.22769371885806,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:5;vars:2.trace,544.2973153591156,5,((* (x0 . x0)) |-> (X x0)),881.6626153914258,7,((x0 & (X x0)) -> (X (X (X (X x0))))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:9;vars:2.trace,554.993085861206,5,((* (true . true)) |-> x0),870.2400126000866,7,((X x0) & (G (x0 U (X (x0 & (X x0)))))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:15;vars:3.trace,588.2650878429413,5,(G ((X x1) & x0)),140.0220498079434,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:5;vars:1.trace,589.5331614017487,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:5;vars:2.trace,596.61327958107,5,((* (true . true)) |-> x0),1557.9132024869323,7,((X x0) & ((X x0) U (G (x0 -> (X (X x0)))))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:5;vars:3.trace,602.423898935318,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/smallTests/23.trace,622.881284236908,5,((* (true . true)) |-> x0),772.3130900617689,7,((X x0) & ((X x0) U (G (x0 -> (X (X x0)))))),17
+allTests/generatedTracesFromPSL/smallTests/08.trace,626.3580131530762,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/100traces;len:15;vars:2.trace,651.7687513828278,5,(G (x0 & (X x1))),156.77806664071977,5,(G (x0 U (x0 & x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:7;vars:2.trace,663.0458869934082,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:7;vars:5.trace,723.6825711727142,6,((x0 U ((X x2) & x2)) -> x2),163.47920364607126,6,((x0 U (x2 & (X x2))) -> x2),6
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:11;vars:2.trace,742.9439623355865,5,((* (true . true)) |-> x0),838.0854071257636,7,(X ((X (X x0)) U ((x0 & (X x0)) & (X (X x0))))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:7;vars:2.trace,767.4258425235748,5,(G (x0 & (X x1))),328.207411641255,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:11;vars:2.trace,843.2802677154541,5,((G x0) & (X x1)),220.1940894499421,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:7;vars:3.trace,857.9577684402466,5,(G ((X x1) & x0)),262.5865814695135,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:9;vars:3.trace,869.5000796318054,5,((x0 . x1) |-> x2),129.4284001775086,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:9;vars:4.trace,888.2807302474976,6,((x3 -> (X x3)) U (! x0)),197.72374785598367,6,((x3 -> (X x3)) U (! x0)),6
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:3;vars:1.trace,899.4919497966766,6,(((* (true . true)) |-> x0) & ((* (true . true)) |-> x0)),185.92551074083894,7,((X x0) & (G (x0 | (X (X (X x0)))))),2
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:15;vars:2.trace,923.2578024864197,5,((* (true . true)) |-> x0),728.7620027987286,7,((X x0) & (G ((X x0) | (G x1)))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:9;vars:2.trace,923.5409941673279,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:11;vars:1.trace,1048.299987077713,5,((* (true . true)) |-> x0),640.2856220612302,7,((X x0) & (G ((X x0) -> (X (X (X x0)))))),17
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:15;vars:4.trace,1050.3061745166779,5,((x0 . x1) |-> x2),177.45837465953082,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:13;vars:1.trace,1070.8405294418335,5,((* (true . true)) |-> x0),150.84025525767356,6,((X x0) & (G (x0 | (X (X x0))))),17
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:9;vars:2.trace,1082.3740293979645,6,((x0 U (x1 & x0)) -> (X x1)),157.45673872251064,6,((x0 U (x0 & x1)) -> (X x1)),6
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:11;vars:1.trace,1103.1940381526947,5,((* (true . true)) |-> x0),762.5508887870237,8,((X (X (X x0))) & ((X (X x0)) & (G ((X x0) U x0)))),1
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:9;vars:3.trace,1106.250576019287,5,(G ((X x1) & x0)),448.04873885400593,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:7;vars:2.trace,1121.5868196487427,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:9;vars:1.trace,1136.7065467834473,5,((* (true . true)) |-> x0),99.3141250833869,6,((X x0) & (G (x0 -> (X (X x0))))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:7;vars:1.trace,1158.6231853961945,5,((* (true . true)) |-> x0),773.7475945549086,7,((X x0) & (X (G (x0 -> (X (X x0)))))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:7;vars:2.trace,1184.2681849002838,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:9;vars:2.trace,1227.8623597621918,5,((* (x0 . x0)) |-> (X x0)),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:15;vars:2.trace,1354.3909578323364,4,((x0 . x0) |-> x1),361.15393697749823,5,(x0 -> (X (x0 -> x1))),15
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:13;vars:4.trace,1482.9947474002838,5,((x0 . x1) |-> x2),105.54504634812474,6,(x0 -> (X (x1 -> x2))),17
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:5;vars:1.trace,1487.7140471935272,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:7;vars:2.trace,1519.019740819931,5,((* (x0 . x0)) |-> (X x0)),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:15;vars:2.trace,1526.574786901474,5,((* (x0 . x0)) |-> x1),816.2759619336575,7,((x0 & (X x0)) -> (x1 & (X x1))),17
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:13;vars:2.trace,1565.7561025619507,5,(x0 U (G (x1 & x0))),283.42552902176976,5,(G (x0 & (X x1))),51
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:5;vars:2.trace,1622.284589767456,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:5;vars:2.trace,1663.859822511673,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:5;vars:3.trace,1719.8737523555756,5,((* (x0 . x0)) |-> x1),2000,,,16
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/50traces;len:11;vars:2.trace,1769.294888496399,5,((* (true . true)) |-> x0),2000,,,16
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:13;vars:3.trace,2000,,,147.10031055193394,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:15;vars:3.trace,2000,,,191.32639250624925,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:9;vars:3.trace,2000,,,224.81904109288007,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:13;vars:4.trace,2000,,,228.30337717197835,6,(x3 -> ((F (G x1)) -> x1)),11
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:15;vars:4.trace,2000,,,262.256860579364,6,((G (x1 U x2)) -> (X x2)),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:11;vars:3.trace,2000,,,268.20833235327154,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:13;vars:3.trace,2000,,,283.38944033998996,6,((x0 -> (X x1)) U (X (x0 -> (X x1)))),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:7;vars:3.trace,2000,,,341.2186154825613,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:15;vars:4.trace,2000,,,345.7534627756104,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:9;vars:4.trace,2000,,,450.8756958236918,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/250traces;len:15;vars:3.trace,2000,,,451.4971494721249,5,(x0 U (x0 & (G x1))),6
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:11;vars:2.trace,2000,,,469.14340596832335,5,(G (x0 & (X x1))),6
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/25traces;len:15;vars:1.trace,2000,,,471.42443009931594,7,((X x0) & ((X x0) U (G (x0 -> (X (X x0)))))),6
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:15;vars:3.trace,2000,,,510.105380541645,6,(x0 -> (X (x1 -> x2))),11
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:15;vars:5.trace,2000,,,511.80690569616854,7,(X (x1 -> (X (x2 -> x3)))),6
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:13;vars:2.trace,2000,,,543.6207607677206,5,(x0 U (G (x0 & x1))),6
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:13;vars:3.trace,2000,,,550.2835804093629,5,(G (x0 & (X x1))),6
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/25traces;len:11;vars:3.trace,2000,,,595.7269552769139,7,((x0 & (X x1)) -> (G x2)),6
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:5;vars:4.trace,2000,,,688.9905128516257,7,(G ((x1 U ((X x1) -> x3)) -> ((X x1) -> x3))),6
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:9;vars:2.trace,2000,,,695.1860004011542,7,((X (x1 | (x0 -> (G x1)))) U (x0 -> (G x1))),6
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:7;vars:4.trace,2000,,,935.1248651249334,8,((X (x1 & (X x2))) -> ((X x2) U x3)),1
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:15;vars:2.trace,2000,,,947.0615029232576,5,(x0 U (G (x0 & x1))),6
+allTests/generatedTracesFromPSL/((true *) |-> (x0 & (X x1)))/500traces;len:15;vars:3.trace,2000,,,982.7019780557603,5,(G (x0 & (X x1))),6
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:9;vars:4.trace,2000,,,1530.1442541172728,7,(x2 | (X ((X x2) -> ((X x2) U x3)))),6
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/100traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:15;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:7;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/250traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:15;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:3;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:3;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:5;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:5;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:7;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((true . true) *) |-> x0)/500traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:11;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:13;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:15;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:5;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:7;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/100traces;len:9;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:11;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:13;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:15;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:5;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:7;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/250traces;len:9;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/25traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:11;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:13;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:5;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:7;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/500traces;len:9;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:11;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:13;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . (x1 . x2)) *) |-> x3)/50traces;len:15;vars:5.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:5;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:7;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/100traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:15;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:5;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:7;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/250traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/25traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:15;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:5;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:5;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:7;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/500traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:11;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:13;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:15;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> (X x0))/50traces;len:9;vars:1.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/100traces;len:9;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:7;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/250traces;len:9;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/25traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:11;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:15;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:5;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:5;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:7;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:7;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:9;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/500traces;len:9;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:13;vars:2.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x0) *) |-> x1)/50traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:5;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:7;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/100traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:5;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:9;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/250traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:13;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:15;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:15;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:5;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:5;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:7;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:9;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/500traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:11;vars:3.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:11;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:13;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:7;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/(((x0 . x1) *) |-> x2)/50traces;len:9;vars:4.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/03.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/04.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/05.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/09.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/10.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/14.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/15.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/17.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/18.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/19.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/20.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/24.trace,2000,,,2000,,,185
+allTests/generatedTracesFromPSL/smallTests/25.trace,2000,,,2000,,,185

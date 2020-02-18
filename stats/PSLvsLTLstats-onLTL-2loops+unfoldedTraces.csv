@@ -1,0 +1,1218 @@
+FileName,PSL-Time taken(2loops+unfoldedTraces),PSL-Size(2loops+unfoldedTraces),PSL-Formula Generated(2loops+unfoldedTraces),LTL-Time taken,LTL-Size,LTL-Formula Generated
+allTests/generatedTracesFromLTL/freshTests/0132.trace,0.14900541305542,2,(F x0),0.15921660605818,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0198.trace,0.150331497192383,2,(G x0),0.173716808669269,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0198.trace,0.154063224792481,2,(G x0),0.158918615896255,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0165.trace,0.162329435348511,2,(G x0),0.196157893165946,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0083.trace,0.165843486785889,2,(G x0),0.170167797245085,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0165.trace,0.174102067947388,2,(G x0),0.187783773057163,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0166.trace,0.194817304611206,2,(G x0),0.217717468738556,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0133.trace,0.197959661483765,2,(F x0),0.230768425390124,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0132.trace,0.198884010314941,2,(G x0),0.239920957013965,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0132.trace,0.202056169509888,2,(G x0),0.234871238935739,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0088.trace,0.206242084503174,2,(F x0),0.238040789030492,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0111.trace,0.206644535064697,2,(G x0),0.232795932795852,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0110.trace,0.209230422973633,2,(G x0),0.249666910152882,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0055.trace,0.210207462310791,2,(F x0),0.228097798768431,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0088.trace,0.210442304611206,2,(F x0),0.22587150009349,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0110.trace,0.211346387863159,2,(G x0),0.246414525900036,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0199.trace,0.211530685424805,2,(G x0),0.234585659112781,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0133.trace,0.213381290435791,2,(F x0),0.234221407212317,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0199.trace,0.217549562454224,2,(G x0),0.241061927750707,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0035.trace,0.222855567932129,2,(G x0),0.233846995979547,2,(G x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0066.trace,0.223429918289185,2,(F x1),0.25278128683567,2,(F x1)
+allTests/generatedTracesFromLTL/5to10Traces/0066.trace,0.224367141723633,2,(F x1),0.258494425099343,2,(F x1)
+allTests/generatedTracesFromLTL/freshTests/0200.trace,0.255912065505981,2,(G x0),0.272489107679576,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0072.trace,0.3696129322052,2,(G x0),0.426734837237745,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0100.trace,0.37593150138855,2,(G x0),0.417625174857676,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0044.trace,0.377954721450806,2,(F x0),0.418520098086446,2,(F x0)
+allTests/generatedTracesFromLTL/equal/0030.trace,0.3850417137146,2,(G x0),0.43578297784552,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0000.trace,0.495349645614624,3,(! (F x0)),0.517402458935976,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0000.trace,0.498182058334351,3,(! (F x0)),0.541736591141671,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0000.trace,0.747192144393921,3,(G (! x0)),0.81208896311,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0022.trace,0.765643835067749,3,(x2 U x1),0.825982305919752,3,(x2 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0022.trace,0.768990516662598,3,(x2 U x1),0.847897303290665,3,(x2 U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0000.trace,0.773266315460205,3,(G (! x0)),0.836542876902968,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0112.trace,0.788120985031128,2,(G x0),0.919805550016463,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0001.trace,0.788804531097412,3,(G (! x0)),0.844794931821525,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0001.trace,0.789678335189819,3,(G (! x0)),0.817034542094916,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0027.trace,0.798143148422241,3,(G (! x0)),0.844018540810793,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10threethree/0176.trace,0.8034348487854,3,(x0 & (X x0)),0.832402913831174,3,(x0 & (X x0))
+allTests/generatedTracesFromLTL/5to10Traces/0176.trace,0.806752681732178,3,(x0 & (X x0)),0.838743533007801,3,(x0 & (X x0))
+allTests/generatedTracesFromLTL/5to10twothree/0112.trace,0.808657884597778,2,(G x0),0.960705937817693,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0028.trace,0.815660953521729,3,(x0 U x1),0.862809218931943,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0034.trace,0.822581291198731,3,((F x1) -> x1),0.876062511000782,3,((F x1) -> x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0125.trace,0.830404043197632,3,(F (G x0)),0.848634090274572,3,(G (X x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0097.trace,0.832296133041382,3,(x0 U x1),0.884690764825791,3,(x0 U x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0069.trace,0.833249092102051,3,(G (F x1)),0.851632264908403,3,(G (F x1))
+allTests/generatedTracesFromLTL/5to10twothree/0154.trace,0.834930181503296,3,(x0 U x1),0.8905786909163,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0154.trace,0.835272550582886,3,(x0 U x1),0.8787462702021,3,(x0 U x1)
+allTests/generatedTracesFromLTL/equal/0007.trace,0.838331699371338,3,(x2 U x1),0.889121755957603,3,(x2 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0034.trace,0.843089580535889,3,((F x1) -> x1),0.913769350852817,3,((F x1) -> x1)
+allTests/generatedTracesFromLTL/5to10Traces/0134.trace,0.85378360748291,2,(G x0),1.00490522477776,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0014.trace,0.855283975601196,3,(G (! x0)),0.879085474647582,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10twothree/0134.trace,0.876059770584106,2,(G x0),0.979624340310693,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0090.trace,0.888542413711548,2,(F x0),1.01658638939261,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0090.trace,0.898089647293091,2,(F x0),1.04269747715443,2,(F x0)
+allTests/generatedTracesFromLTL/baseTest/0035.trace,0.908628702163696,2,(G x0),1.04765616822988,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0068.trace,1.05626940727234,3,(F (G x2)),1.09869011398405,3,(F (G x2))
+allTests/generatedTracesFromLTL/freshTests/0068.trace,1.11922407150269,3,(F (G x2)),1.08659435203299,3,(F (G x2))
+allTests/generatedTracesFromLTL/freshTests2/0201.trace,1.12939453125,2,(G x0),1.42962141195312,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0091.trace,1.13895463943481,2,(F x0),1.37929908186197,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0135.trace,1.14007616043091,2,(F x0),1.30458966409788,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0091.trace,1.14019823074341,2,(F x0),1.43380660237744,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0201.trace,1.1411657333374,2,(G x0),1.28930909419432,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0135.trace,1.14137434959412,2,(F x0),1.36878893291578,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0135.trace,1.17140173912048,2,(G x0),1.28590987017378,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0069.trace,1.19654011726379,2,(F x1),1.31277680816129,2,(F x1)
+allTests/generatedTracesFromLTL/freshTests/0101.trace,1.21559572219849,3,(G (F x1)),1.23692603502423,3,(G (F x1))
+allTests/generatedTracesFromLTL/5to10Traces/0135.trace,1.21691966056824,2,(G x0),1.31550586828962,2,(G x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0069.trace,1.24818992614746,2,(F x1),1.34593418892473,2,(F x1)
+allTests/generatedTracesFromLTL/freshTests2/0101.trace,1.25792813301086,3,(G (F x1)),1.22685226332396,3,(G (F x1))
+allTests/generatedTracesFromLTL/freshTests2/0266.trace,1.2706515789032,3,(F (G x0)),1.39503576373681,3,(F (G x0))
+allTests/generatedTracesFromLTL/freshTests/0266.trace,1.29750084877014,3,(F (G x0)),1.36344776814803,3,(F (G x0))
+allTests/generatedTracesFromLTL/equal/0009.trace,1.5211808681488,3,(G (! x0)),1.5619728602469,3,(! (F x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0086.trace,1.54737877845764,3,(x0 U x1),1.63218032801524,3,(x0 U x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0016.trace,1.57040357589722,3,(! (F x0)),1.62393742194399,3,(G (! x0))
+allTests/generatedTracesFromLTL/equal/0023.trace,1.61575484275818,3,(x0 U x1),1.69137487700209,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0092.trace,1.65814661979675,2,(F x0),2.04055430926383,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0136.trace,1.67602181434631,2,(F x0),2.01921859709546,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0082.trace,1.69735550880432,2,(G x0),2.02858919696882,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0202.trace,1.70882511138916,2,(G x0),1.94604245200753,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0202.trace,1.71103882789612,2,(G x0),1.95799112180248,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0170.trace,1.71684741973877,2,(G x0),1.98644144972786,2,(G x0)
+allTests/generatedTracesFromLTL/baseTest/0028.trace,1.72945427894592,3,(x0 U x1),1.72461854014546,3,(x0 U x1)
+allTests/generatedTracesFromLTL/equal/0034.trace,1.75754022598267,2,(G x0),1.95854344870895,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0054.trace,1.7612988948822,2,(F x0),1.97876576287672,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0136.trace,1.76747155189514,2,(G x0),1.98876797780395,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0136.trace,1.77320122718811,2,(G x0),1.98602359183133,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0110.trace,1.81287455558777,2,(G x0),1.96390839014202,2,(G x0)
+allTests/generatedTracesFromLTL/baseTest/0030.trace,1.8243944644928,2,(G x0),1.97603405825794,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0137.trace,1.82577776908875,2,(F x0),2.0673716920428,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0136.trace,1.84114527702332,2,(F x0),1.99234997900203,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0137.trace,1.84690952301025,2,(F x0),2.07871300494298,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0203.trace,1.8893895149231,2,(G x0),2.20475134905428,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0203.trace,1.9043493270874,2,(G x0),2.21520554507151,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0092.trace,1.94384241104126,2,(F x0),1.99210328375921,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0093.trace,2.20235109329224,2,(F x0),2.44155098497868,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0137.trace,2.20949721336365,2,(G x0),2.46828092820942,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0204.trace,2.22216486930847,2,(G x0),2.50439835479483,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0204.trace,2.24516820907593,2,(G x0),2.56747422926128,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0137.trace,2.24831795692444,2,(G x0),2.45303633296862,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0093.trace,2.28777551651001,2,(F x0),2.40479841688648,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0100.trace,2.41204261779785,4,(F (x0 & x1)),2.22051815828308,4,(x1 U (X (X x1)))
+allTests/generatedTracesFromLTL/freshTests/0100.trace,2.42412209510803,4,(F (x0 & x1)),2.135966245085,4,(x1 U (X (X x1)))
+allTests/generatedTracesFromLTL/5to10twothree/0138.trace,2.557621717453,2,(G x0),2.93379552522674,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0042.trace,2.61542868614197,4,(G (x1 -> x0)),2.36007092380896,4,(G (x1 -> x0))
+allTests/generatedTracesFromLTL/5to10twothree/0094.trace,2.62080955505371,2,(F x0),3.07643518969417,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0094.trace,2.62600898742676,2,(F x0),3.05620686523616,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0138.trace,2.63705658912659,2,(G x0),3.00001758895814,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0013.trace,2.66876840591431,4,((x0 -> x1) U x1),2.28432703809813,4,((G (F x1)) -> x1)
+allTests/generatedTracesFromLTL/freshTests/0138.trace,2.68316578865051,2,(F x0),2.60850425995886,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0056.trace,2.70958304405212,2,(F x0),2.97053226875141,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0112.trace,2.75958490371704,2,(G x0),2.91301788110286,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0138.trace,2.83663201332092,2,(F x0),2.60181937925518,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0139.trace,3.25756216049194,2,(G x0),3.6866586310789,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0205.trace,3.26598429679871,2,(G x0),3.99383141286671,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0172.trace,3.2975754737854,2,(G x0),3.80061667691916,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0139.trace,3.34509968757629,2,(G x0),3.66601219307631,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0172.trace,3.34893655776978,2,(G x0),3.92457122076303,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0141.trace,3.38557052612305,2,(F x0),3.79118779301643,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0207.trace,3.39365029335022,2,(G x0),4.13145130500197,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0095.trace,3.40505194664001,2,(F x0),3.86285351589322,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0140.trace,3.41568851470947,2,(G x0),3.86987456586212,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0095.trace,3.4387469291687,2,(F x0),3.9401210215874,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0141.trace,3.45258617401123,2,(F x0),3.95728048263118,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0139.trace,3.46315717697144,2,(F x0),4.03479674272239,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0207.trace,3.46833062171936,2,(G x0),3.88830778095871,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0029.trace,3.4747908115387,2,(G x0),4.14874685695395,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0096.trace,3.52338695526123,2,(F x0),3.93591530388221,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0205.trace,3.52956628799438,2,(G x0),3.96482338616624,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0096.trace,3.53391456604004,2,(F x0),4.29728155070916,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0206.trace,3.55645060539246,2,(G x0),3.94917472312227,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0173.trace,3.58295512199402,2,(G x0),4.06588588096201,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0139.trace,3.58409333229065,2,(F x0),3.97465491620824,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0140.trace,3.60894727706909,2,(G x0),3.95491535076872,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0002.trace,3.63526606559753,3,(! (F x0)),3.94785750610754,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0206.trace,3.67189264297485,2,(G x0),3.98448787909001,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0043.trace,3.70209407806396,2,(F x0),3.88729664217681,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0140.trace,3.71116924285889,2,(F x0),4.08964415779337,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0173.trace,3.7229323387146,2,(G x0),4.10045637469739,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0099.trace,3.74901843070984,2,(G x0),3.84358508931473,2,(G x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0002.trace,3.76377320289612,3,(! (F x0)),3.89331109495834,3,(G (! x0))
+allTests/generatedTracesFromLTL/baseTest/0014.trace,3.78297829627991,3,(G (! x0)),3.94488556776196,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0120.trace,3.8089644908905,2,(G x0),4.84974038088694,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0140.trace,3.83098840713501,2,(F x0),4.10248165391386,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0120.trace,3.94516348838806,2,(G x0),4.59566521178931,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0142.trace,4.07639265060425,2,(G x0),4.95728460326791,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0003.trace,4.13537311553955,3,(! (F x0)),4.74445768492296,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10twothree/0098.trace,4.22804594039917,2,(F x0),4.86036337679252,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0142.trace,4.26143789291382,2,(G x0),4.83975446596742,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0003.trace,4.31441211700439,3,(! (F x0)),4.70885686390102,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0098.trace,4.32111263275147,2,(F x0),4.85721608297899,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0097.trace,4.32318449020386,2,(F x0),4.81347459275276,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0045.trace,4.35037755966187,2,(F x0),5.10990486014634,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0101.trace,4.44003391265869,2,(G x0),5.20144311385229,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0097.trace,4.49016928672791,2,(F x0),4.61053972877562,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0210.trace,4.51035404205322,2,(G x0),5.28667092882097,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0141.trace,4.51944994926453,2,(G x0),4.9261084459722,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0210.trace,4.54599118232727,2,(G x0),5.18946284102276,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0144.trace,4.60189151763916,2,(F x0),5.26350163295865,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0141.trace,4.6114137172699,2,(G x0),4.87131616706029,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0119.trace,4.64064836502075,2,(G x0),5.11804658221081,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0119.trace,4.67882323265076,2,(G x0),5.14169999817386,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0144.trace,4.77400135993958,2,(F x0),5.30173415597528,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0100.trace,4.94080281257629,2,(F x0),5.67950626974925,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0102.trace,4.97753167152405,2,(G x0),5.88478877209127,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0144.trace,5.04804563522339,2,(G x0),5.81197100505233,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0144.trace,5.11797738075256,2,(G x0),5.94924255507067,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0100.trace,5.13328456878662,2,(F x0),5.87411843985319,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0208.trace,5.14803218841553,2,(G x0),5.80398392025381,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0031.trace,5.18878889083862,2,(G x0),6.15968232695013,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0046.trace,5.19976115226746,2,(F x0),5.83682490792125,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0208.trace,5.22947502136231,2,(G x0),5.94878694228828,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0142.trace,5.25166964530945,2,(F x0),6.18405884923413,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0176.trace,5.30686545372009,2,(G x0),6.15818357560784,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0143.trace,5.36376619338989,2,(G x0),5.98138862196356,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0143.trace,5.40910983085632,2,(G x0),5.94479130581021,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0231.trace,5.41141843795776,5,((F x1) -> (x0 U x1)),3.40098373126239,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0176.trace,5.4203953742981,2,(G x0),6.00330291036516,2,(G x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0003.trace,5.42270183563232,3,(! (F x0)),5.45351141295396,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0003.trace,5.43173050880432,3,(! (F x0)),5.52424981305376,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0099.trace,5.43182826042175,2,(F x0),6.01860027760267,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0142.trace,5.45076990127564,2,(F x0),5.93455681484193,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0099.trace,5.45358610153198,2,(F x0),6.07526763202623,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0231.trace,5.47073459625244,5,((F x1) -> (x0 U x1)),3.2806458780542,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0143.trace,5.50246143341064,2,(F x0),6.21024032542482,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0143.trace,5.5613055229187,2,(F x0),6.26212036376819,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0209.trace,5.57505631446838,2,(G x0),6.50999232800677,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0213.trace,5.6165759563446,2,(G x0),6.4096730099991,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0147.trace,5.63052940368652,2,(F x0),6.88171759666875,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0002.trace,5.65477705001831,4,((! x0) U x1),4.63517707679421,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0035.trace,5.71240758895874,4,((! x0) U x1),4.59732810780406,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests/0035.trace,5.71393871307373,4,((! x0) U x1),4.58540557418019,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0213.trace,5.74065804481506,2,(G x0),6.42341940989718,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0066.trace,5.75417995452881,5,(! ((F x0) U x1)),3.33135162992403,5,(! ((F x1) U x0))
+allTests/generatedTracesFromLTL/freshTests/0209.trace,5.89092445373535,2,(G x0),6.42086936207488,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0066.trace,5.90014791488647,5,(! ((F x0) U x1)),3.40766608715057,5,(! ((F x1) U x0))
+allTests/generatedTracesFromLTL/5to10twothree/0121.trace,5.92508983612061,2,(G x0),6.39834433980286,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0146.trace,5.92777633666992,2,(G x0),6.82376222033054,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0146.trace,5.97303009033203,2,(G x0),6.8440834437497,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0047.trace,5.98202443122864,2,(F x0),6.95428549172357,2,(F x0)
+allTests/generatedTracesFromLTL/5to10threethree/0177.trace,6.00242590904236,4,(! (x1 | x0)),5.32530456222594,4,(! (x0 | x1))
+allTests/generatedTracesFromLTL/5to10Traces/0102.trace,6.02219343185425,2,(F x0),6.99385093804449,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0103.trace,6.10084176063538,2,(G x0),6.96865339577198,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0102.trace,6.11708474159241,2,(F x0),7.0118721020408,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0121.trace,6.16599488258362,2,(G x0),6.53040337190032,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0033.trace,6.25512862205505,5,(((F x0) U x1) -> x1),4.26514347735792,5,(((F x0) U x1) -> x1)
+allTests/generatedTracesFromLTL/5to10twothree/0145.trace,6.34050846099854,2,(G x0),7.09316032286733,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0177.trace,6.41479301452637,4,(! (x1 | x0)),5.37809736793861,4,(! (x0 | x1))
+allTests/generatedTracesFromLTL/5to10twothree/0101.trace,6.48598146438599,2,(F x0),7.18125783605501,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0145.trace,6.54127383232117,2,(G x0),7.22368261730298,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0216.trace,6.54669165611267,2,(G x0),7.89388676919043,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0099.trace,6.59880709648132,5,((X (F x1)) | x0),3.36597502417862,5,(x0 | (F (X x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0104.trace,6.60656118392944,2,(F x0),7.81887403409928,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0033.trace,6.62310838699341,5,(((F x0) U x1) -> x1),4.22107937792316,5,(((F x0) U x1) -> x1)
+allTests/generatedTracesFromLTL/freshTests/0099.trace,6.62567090988159,5,((X (F x1)) | x0),3.39629627671093,5,(x0 | (F (X x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0101.trace,6.64137434959412,2,(F x0),7.71568721299991,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0150.trace,6.68313312530518,2,(F x0),7.81526953401044,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0104.trace,6.69363307952881,2,(G x0),7.91879785899073,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0148.trace,6.7352340221405,2,(G x0),7.89876678492874,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0211.trace,6.8303382396698,2,(G x0),7.87854181602597,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0148.trace,6.89194345474243,2,(G x0),7.9474578006193,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0145.trace,6.92859268188477,2,(F x0),8.1483157761395,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0104.trace,6.93478083610535,2,(F x0),7.84952279971913,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0211.trace,6.93692636489868,2,(G x0),7.97257604030892,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0032.trace,7.07740497589111,2,(G x0),7.83596741734073,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0264.trace,7.09496426582336,5,(G (x1 -> (G x0))),3.85094263404608,5,(G (x1 -> (X x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0048.trace,7.10457730293274,2,(F x0),8.03365620970726,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0212.trace,7.15485858917236,2,(G x0),8.45958170015365,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0004.trace,7.17889404296875,3,(! (F x0)),8.10121984407306,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0145.trace,7.18035006523132,2,(F x0),8.12982661882415,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0004.trace,7.25481081008911,3,(! (F x0)),7.87403994426131,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0212.trace,7.33143472671509,2,(G x0),8.09284742595628,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0146.trace,7.33160138130188,2,(F x0),8.14714145334438,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0264.trace,7.36067914962769,5,(G (x1 -> (G x0))),3.86511047929525,5,(G (x1 -> (X x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0026.trace,7.43420600891113,3,(G (! x0)),7.94301765505224,3,(G (! x0))
+allTests/generatedTracesFromLTL/equal/0013.trace,7.44344043731689,3,(! (F x0)),7.69636914785951,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0004.trace,7.45038223266602,3,(! (F x0)),7.89382362784818,3,(G (! x0))
+allTests/generatedTracesFromLTL/baseTest/0009.trace,7.47366786003113,3,(G (! x0)),8.06770703196526,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0004.trace,7.57220005989075,3,(! (F x0)),7.91662226105109,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10twothree/0103.trace,7.58941078186035,2,(F x0),8.43513708282262,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0103.trace,7.62744188308716,2,(F x0),8.55981617374346,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0219.trace,7.66541504859924,2,(G x0),8.7477709222585,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0146.trace,7.68080568313599,2,(F x0),8.23780998820439,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0150.trace,7.75259733200073,2,(G x0),9.08792392816395,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0125.trace,7.79766154289246,2,(G x0),9.01093720505014,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0147.trace,7.82007575035095,2,(G x0),8.91463187709451,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0106.trace,7.84017324447632,2,(F x0),8.87080460600555,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0005.trace,7.87702345848084,3,(G (! x0)),8.62554458901286,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10twothree/0150.trace,7.88919162750244,2,(G x0),9.27806488936767,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0125.trace,7.89335370063782,2,(G x0),9.10139887407422,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0219.trace,7.9262809753418,2,(G x0),9.1919928137213,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0005.trace,7.97369742393494,3,(G (! x0)),8.54209085833281,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0106.trace,7.98242974281311,2,(F x0),8.93250308604911,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0147.trace,8.01336741447449,2,(G x0),8.64208481786773,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0153.trace,8.13871264457703,2,(F x0),9.09415797004476,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0023.trace,8.22171092033386,4,((x0 -> x1) U x1),6.52487981785089,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0023.trace,8.25183200836182,4,((x0 -> x1) U x1),6.37341020791791,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0153.trace,8.29398131370544,2,(F x0),8.97135221306235,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0006.trace,8.35119724273682,3,(G (! x0)),9.49602268310264,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0182.trace,8.48730206489563,2,(G x0),9.72173362597823,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0152.trace,8.58999609947205,2,(G x0),10.3062459160574,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0214.trace,8.59685873985291,2,(G x0),9.897258867044,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0108.trace,8.60541462898254,2,(F x0),9.69288885686547,2,(F x0)
+allTests/generatedTracesFromLTL/baseTest/0034.trace,8.6191782951355,2,(G x0),10.1920033218339,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0148.trace,8.65649676322937,2,(F x0),9.90930787287653,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0108.trace,8.73250961303711,2,(F x0),9.80293980799615,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0214.trace,8.73292946815491,2,(G x0),9.95472165476531,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0049.trace,8.76059675216675,2,(F x0),9.83864760305733,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0182.trace,8.76074743270874,2,(G x0),9.92294032732025,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0105.trace,8.77097678184509,2,(G x0),10.0147587107494,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0148.trace,8.77387523651123,2,(F x0),10.1155314049684,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0149.trace,8.77893352508545,2,(G x0),9.67452347837389,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0222.trace,8.86236786842346,2,(G x0),10.1094068228267,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0105.trace,8.94902944564819,2,(F x0),9.7167876586318,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0152.trace,8.96407628059387,2,(G x0),9.64366255514324,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0156.trace,8.97648739814758,2,(F x0),10.5288717239164,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0105.trace,9.01019906997681,2,(F x0),9.98545881500468,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0215.trace,9.06162858009338,2,(G x0),10.8287552087568,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0156.trace,9.08539032936096,2,(F x0),10.1223890613765,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0222.trace,9.08745670318604,2,(G x0),10.3375784079544,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0127.trace,9.12693786621094,2,(G x0),10.6344714039005,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0149.trace,9.18336915969849,2,(F x0),10.9295919202268,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0215.trace,9.22218751907349,2,(G x0),10.6390477460809,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0149.trace,9.25228381156921,2,(G x0),10.201379028149,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0127.trace,9.31615042686462,2,(G x0),10.3306553140283,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0129.trace,9.8272876739502,2,(G x0),11.9778809701093,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0107.trace,9.88987278938293,2,(F x0),11.6968946550041,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0107.trace,9.91137099266052,2,(F x0),11.2609212426469,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0151.trace,10.0515587329865,2,(G x0),11.2167332852259,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0159.trace,10.1666808128357,2,(F x0),12.0784848346375,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0151.trace,10.2279880046844,2,(G x0),11.2496380140074,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0129.trace,10.250438451767,2,(G x0),11.6015810389072,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0225.trace,10.2663426399231,2,(G x0),11.5789430150762,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0225.trace,10.2710475921631,2,(G x0),11.7714086808264,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0159.trace,10.2895727157593,2,(F x0),11.6492681629024,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0217.trace,10.3254928588867,2,(G x0),11.7647287580185,2,(G x0)
+allTests/generatedTracesFromLTL/disjunctedExistence/0058.trace,10.3545279502869,2,(G x0),12.0118732405826,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0050.trace,10.4018085002899,2,(F x0),11.9334466331638,2,(F x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0005.trace,10.4162514209747,3,(! (F x0)),11.0669118198566,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0006.trace,10.4202105998993,3,(G (! x0)),11.9472212139517,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0149.trace,10.5029606819153,2,(F x0),10.7575968219899,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0185.trace,10.5451381206512,2,(G x0),11.7310429969803,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0157.trace,10.5467100143433,3,(x0 U x1),11.2791446880437,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0217.trace,10.6073200702667,2,(G x0),11.8064182340167,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0005.trace,10.6269731521606,3,(! (F x0)),10.8591769291088,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0157.trace,10.7000787258148,3,(x0 U x1),11.0159322647378,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0218.trace,10.8201270103455,2,(G x0),12.4957523308694,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0151.trace,10.9001815319061,2,(F x0),11.9718295368366,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0185.trace,10.9071950912476,2,(G x0),12.0656082108617,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0106.trace,10.907398223877,2,(G x0),11.70950373495,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0109.trace,10.9351296424866,2,(F x0),12.3275656662881,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0228.trace,11.0377533435822,2,(G x0),12.9130543507636,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0218.trace,11.0437815189362,2,(G x0),12.674038422294,2,(G x0)
+allTests/generatedTracesFromLTL/5to10twothree/0109.trace,11.0557270050049,2,(F x0),12.4340408318676,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0152.trace,11.1756467819214,2,(F x0),12.5926055540331,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0028.trace,11.2148714065552,3,(G (! x0)),11.9770133788697,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0162.trace,11.2455632686615,2,(F x0),13.110887710005,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0228.trace,11.2596054077148,2,(G x0),12.8776406329125,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0152.trace,11.4789381027222,2,(F x0),12.9688220238313,2,(F x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0006.trace,11.5023193359375,3,(G (! x0)),11.6669564549811,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0153.trace,11.5451302528381,2,(G x0),12.7703776666895,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0162.trace,11.6724796295166,2,(F x0),13.1800808589906,2,(F x0)
+allTests/generatedTracesFromLTL/5to10twothree/0153.trace,11.8539278507233,2,(G x0),12.6904956740327,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0220.trace,11.8699407577515,2,(G x0),14.0582926645875,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0051.trace,12.1156628131866,2,(F x0),13.8726983270608,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0154.trace,12.1781797409058,2,(F x0),14.1035071793012,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0188.trace,12.3000476360321,2,(G x0),14.8048391263001,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0220.trace,12.3380844593048,2,(G x0),13.6528396089561,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0188.trace,12.3646974563599,2,(G x0),14.7455646181479,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0155.trace,12.502760887146,2,(F x0),14.7018873956986,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0155.trace,12.788156747818,2,(F x0),14.5253369980492,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0009.trace,12.8432176113129,3,(G (! x0)),14.2086056983098,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0154.trace,13.0910079479218,2,(F x0),14.5018969038501,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0221.trace,13.1035268306732,2,(G x0),16.3680824330077,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0009.trace,13.2173073291779,3,(G (! x0)),13.9133513378911,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0107.trace,13.2982602119446,2,(G x0),13.58970709797,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0021.trace,13.4459457397461,5,(G (x0 -> (! x1))),7.56039089290425,5,(G (x0 -> (! x1)))
+allTests/generatedTracesFromLTL/freshTests2/0157.trace,13.7766160964966,2,(F x0),16.3902271380648,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0052.trace,13.8606011867523,2,(F x0),16.0353990080766,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0223.trace,13.8815071582794,2,(G x0),15.7444904344156,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0224.trace,13.9258670806885,2,(G x0),16.4941061600111,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0157.trace,13.9895384311676,2,(F x0),16.4107052809559,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0191.trace,14.0494587421417,2,(G x0),16.3701003622264,2,(G x0)
+allTests/generatedTracesFromLTL/equal/0008.trace,14.0601875782013,3,(G (! x0)),15.5832691560499,3,(! (F x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0108.trace,14.0914690494537,2,(G x0),16.0634418632835,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0223.trace,14.1695442199707,2,(G x0),16.4309875690378,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0191.trace,14.3908767700195,2,(G x0),16.4640232590027,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0158.trace,14.4310266971588,2,(F x0),16.585063570179,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0007.trace,14.5061395168304,3,(G (! x0)),15.9743551476859,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0236.trace,14.5980136394501,3,(x0 U x1),15.4012875324115,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0008.trace,14.6258058547974,3,(G (! x0)),15.2184138880111,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0224.trace,14.6783041954041,2,(G x0),16.0783588476479,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0158.trace,14.7799389362335,2,(F x0),16.3106362270191,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0265.trace,15.0752086639404,5,(G (x1 -> (G x0))),8.63786200992763,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0008.trace,15.1016116142273,3,(G (! x0)),15.1830660481937,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0007.trace,15.1540548801422,3,(G (! x0)),16.0309677547775,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0015.trace,15.2676069736481,3,(G (! x0)),17.948528372217,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0044.trace,15.4331562519074,5,((X x2) U (! x0)),5.50511226477101,5,(! (x1 | (X x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0044.trace,15.4745116233826,5,((X x2) U (! x0)),5.78038716409355,5,(! (x1 | (X x0)))
+allTests/generatedTracesFromLTL/freshTests/0226.trace,15.6725924015045,2,(G x0),17.9804542614147,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0265.trace,15.7769184112549,5,(G (x1 -> (G x0))),8.72277303785086,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0160.trace,15.9187331199646,2,(F x0),18.1916759517044,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0226.trace,16.0025238990784,2,(G x0),17.6899886247702,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0160.trace,16.051276922226,2,(F x0),19.075552999042,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0161.trace,16.0567255020142,2,(F x0),18.485595562961,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0161.trace,16.4942071437836,2,(F x0),18.5289950869046,2,(F x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0007.trace,16.5125954151154,3,(! (F x0)),17.8649114358705,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0227.trace,16.5659074783325,2,(G x0),18.3049024250358,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0007.trace,16.5972816944122,3,(! (F x0)),17.5170745197684,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0008.trace,16.7287721633911,3,(! (F x0)),17.9767248281278,3,(! (F x0))
+allTests/generatedTracesFromLTL/equal/0033.trace,16.8679113388062,2,(G x0),19.8056720509194,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0163.trace,16.8922135829926,2,(F x0),19.8308123121969,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests2/0227.trace,16.9150972366333,2,(G x0),17.8289709808305,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0008.trace,17.2754099369049,3,(! (F x0)),17.9850422907621,3,(! (F x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0109.trace,17.3072924613953,2,(G x0),19.8023398648947,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0229.trace,17.3199915885925,2,(G x0),19.9143113051541,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0229.trace,17.3824002742767,2,(G x0),19.9117092392407,2,(G x0)
+allTests/generatedTracesFromLTL/baseTest/0029.trace,17.4385592937469,2,(G x0),19.7633220641874,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0017.trace,17.8359444141388,3,(! (F x0)),21.5517586078495,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0012.trace,17.8648021221161,3,(G (! x0)),20.7771277851425,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0012.trace,17.9429817199707,3,(G (! x0)),20.6049061180092,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0164.trace,17.9973814487457,2,(F x0),20.5013459399343,2,(F x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0053.trace,18.2826166152954,2,(F x0),20.3681669258513,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0163.trace,18.3258090019226,2,(F x0),20.0308324210346,2,(F x0)
+allTests/generatedTracesFromLTL/freshTests/0230.trace,18.3498516082764,2,(G x0),21.1651002955623,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests2/0164.trace,18.3562564849854,2,(F x0),20.7067513326183,2,(F x0)
+allTests/generatedTracesFromLTL/5to10Traces/0010.trace,18.5756866931915,3,(! (F x0)),21.8962717358954,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0230.trace,18.7024683952332,2,(G x0),20.9893500129692,2,(G x0)
+allTests/generatedTracesFromLTL/5to10OneThree/0010.trace,18.9725987911224,3,(! (F x0)),20.2509041470475,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0009.trace,20.9594902992249,3,(! (F x0)),22.3253472479992,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0009.trace,21.1561269760132,3,(! (F x0)),21.9382163849659,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0015.trace,21.7134306430817,3,(G (! x0)),23.6799834016711,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0015.trace,21.7323586940765,3,(G (! x0)),23.197198332753,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0012.trace,21.8924975395203,3,(G (! x0)),22.9140595670324,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0159.trace,22.0362632274628,3,(x0 U x1),22.8102668900974,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0012.trace,22.0655674934387,3,(G (! x0)),23.9527008570731,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0018.trace,22.4268596172333,3,(G (! x0)),23.9078439511359,3,(G (! x0))
+allTests/generatedTracesFromLTL/equal/0010.trace,22.4902081489563,3,(G (! x0)),24.1792285479605,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0010.trace,22.5912446975708,3,(G (! x0)),23.5131373899058,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10twothree/0159.trace,22.7107713222504,3,(x0 U x1),22.5735788489692,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0011.trace,24.2384431362152,3,(G (! x0)),26.0358244790696,3,(! (F x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0114.trace,25.2077791690826,5,(G (x1 -> (G x0))),12.0892733242363,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0018.trace,25.649266242981,3,(! (F x0)),29.2580690970644,3,(G (! x0))
+allTests/generatedTracesFromLTL/baseTest/0031.trace,25.6976697444916,2,(G x0),29.7213510503061,2,(G x0)
+allTests/generatedTracesFromLTL/freshTests/0018.trace,25.8674437999725,3,(! (F x0)),28.2223973842338,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0019.trace,26.0663514137268,3,(G (! x0)),27.8619508752599,3,(! (F x0))
+allTests/generatedTracesFromLTL/equal/0016.trace,26.2269721031189,5,(G (x1 -> (! x0))),12.5792376804166,5,(! (F (x0 & x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0014.trace,26.617832660675,3,(G (! x0)),27.7993662813678,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0014.trace,27.8090045452118,3,(G (! x0)),27.4515203849878,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0013.trace,28.4641683101654,3,(! (F x0)),31.6668305648491,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0011.trace,28.6299912929535,3,(! (F x0)),29.3386413189583,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0239.trace,28.8867347240448,3,(x0 U x1),31.1939335111529,3,(x0 U x1)
+allTests/generatedTracesFromLTL/equal/0011.trace,29.3196833133698,3,(G (! x0)),31.8639935771935,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0011.trace,29.3446605205536,3,(! (F x0)),29.1613536381628,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0239.trace,29.3805968761444,3,(x0 U x1),30.6461168327369,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0016.trace,29.6912958621979,3,(! (F x0)),31.7509124982171,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0016.trace,30.0229511260986,3,(! (F x0)),30.9005617010407,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0021.trace,30.3273713588715,3,(! (F x0)),34.6685648718849,3,(! (F x0))
+allTests/generatedTracesFromLTL/baseTest/0002.trace,30.7538065910339,5,(((X x0) | x0) -> x1),15.5396707141772,5,((x0 | (X x0)) -> x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0020.trace,30.9022023677826,3,(! (F x0)),33.2200158722699,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10twothree/0161.trace,31.6708347797394,3,(x0 U x1),34.4576387079433,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0013.trace,31.6965210437775,3,(! (F x0)),30.8966650790535,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0018.trace,32.3541285991669,3,(G (! x0)),35.8236559680663,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0018.trace,32.4684979915619,3,(G (! x0)),36.6435932461172,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0021.trace,32.4922053813934,3,(! (F x0)),34.2962770857848,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0013.trace,32.5562829971313,3,(G (! x0)),32.9162876422051,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0013.trace,32.710280418396,3,(G (! x0)),33.948523928877,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0024.trace,34.9504733085632,3,(! (F x0)),37.914624999743,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0014.trace,35.0566108226776,3,(G (! x0)),37.6523614870384,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0014.trace,35.6204125881195,3,(G (! x0)),37.2790643949993,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0024.trace,35.7801446914673,3,(! (F x0)),38.5375622780994,3,(! (F x0))
+allTests/generatedTracesFromLTL/baseTest/0032.trace,35.7907819747925,2,(G x0),40.2080322736874,2,(G x0)
+allTests/generatedTracesFromLTL/5to10Traces/0161.trace,36.5584523677826,3,(x0 U x1),32.6452642502263,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0016.trace,36.8944430351257,3,(G (! x0)),39.9472671668045,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0016.trace,37.1068675518036,3,(G (! x0)),39.3132728990167,3,(! (F x0))
+allTests/generatedTracesFromLTL/equal/0037.trace,37.2212748527527,5,(G (x1 -> (G x0))),13.9316792162135,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0021.trace,37.3218901157379,3,(! (F x0)),38.5616893116385,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0020.trace,37.3587942123413,3,(G (! x0)),38.5731932108756,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0015.trace,38.0494909286499,3,(G (! x0)),40.3354180669412,3,(! (F x0))
+allTests/generatedTracesFromLTL/baseTest/0013.trace,38.0673971176147,3,(G (! x0)),40.9204883677885,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0020.trace,38.6008877754211,3,(G (! x0)),38.814164350275,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0025.trace,39.2507126331329,4,((! x0) U x1),34.9272098401561,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0045.trace,39.7202322483063,5,(! (x0 -> (x0 U x1))),12.0599335108418,5,(x0 & (X (! x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0045.trace,40.479736328125,5,(! (x0 -> (x0 U x1))),12.7557070930488,5,(x0 & (X (! x1)))
+allTests/generatedTracesFromLTL/freshTests2/0017.trace,41.0437030792236,3,(! (F x0)),42.802054069005,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0017.trace,41.3207428455353,3,(! (F x0)),43.2653857758269,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0025.trace,41.3356139659882,4,((! x0) U x1),33.2073941349518,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10twothree/0163.trace,41.9535133838654,3,(x0 U x1),43.8348175459541,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0017.trace,42.7196817398071,3,(G (! x0)),44.1399771429133,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0163.trace,43.1994097232819,3,(x0 U x1),43.9761893912219,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0015.trace,43.5080909729004,3,(G (! x0)),40.7867097998969,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0017.trace,44.4075589179993,3,(G (! x0)),44.3922045254149,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests2/0019.trace,44.5845718383789,3,(G (! x0)),49.0881315418519,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0030.trace,45.2330272197723,3,(G (! x0)),46.2450688942336,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0027.trace,45.3801143169403,3,(! (F x0)),43.0957150608301,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0022.trace,45.4847946166992,3,(! (F x0)),48.9815617697313,3,(! (F x0))
+allTests/generatedTracesFromLTL/disjunctedExistence/0030.trace,46.0194444656372,4,(F (x1 | x2)),42.1335676959716,4,(F (x0 | x1))
+allTests/generatedTracesFromLTL/freshTests/0019.trace,46.212210893631,3,(G (! x0)),47.649176212959,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0019.trace,49.6291608810425,3,(! (F x0)),50.8875240120105,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0019.trace,50.0229015350342,3,(! (F x0)),53.5007162727416,3,(! (F x0))
+allTests/generatedTracesFromLTL/disjunctedExistence/0049.trace,51.8162624835968,4,(G (x0 U x3)),39.8187164789997,4,(G (x0 U x3))
+allTests/generatedTracesFromLTL/freshTests2/0020.trace,53.4395263195038,3,(G (! x0)),54.9651653803885,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0022.trace,55.4359304904938,3,(! (F x0)),53.9007282331586,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0023.trace,55.9733192920685,3,(G (! x0)),54.8314652149566,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0022.trace,56.055061340332,3,(! (F x0)),55.3287025890313,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0038.trace,56.3251693248749,4,((! x0) U x1),46.1132330987603,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0021.trace,56.4896049499512,3,(! (F x0)),58.373235180974,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0021.trace,58.1202685832977,3,(! (F x0)),59.9853298291564,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10threethree/0165.trace,58.3033087253571,3,(x0 U x1),54.8797715078108,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0025.trace,58.8954632282257,3,(G (! x0)),63.7966021159664,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0025.trace,59.0115611553192,3,(G (! x0)),64.5988963041455,3,(! (F x0))
+allTests/generatedTracesFromLTL/increasingNumVariables/0000.trace,59.7929964065552,5,(G (x1 -> (G x0))),26.6784913777374,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0165.trace,59.8000531196594,3,(x0 U x1),55.7381017720327,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0038.trace,59.8418610095978,4,((! x0) U x1),47.5964693082497,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0023.trace,59.9589262008667,3,(! (F x0)),62.3540400369093,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0020.trace,60.0706787109375,3,(G (! x0)),55.1716929362155,3,(G (! x0))
+allTests/generatedTracesFromLTL/moreDetailedTest/0024.trace,61.6240756511688,3,(G (! x0)),74.7870583757758,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10twothree/0117.trace,62.2057452201843,4,(x1 & (G x0)),52.1001966642216,4,(x1 & (G x0))
+allTests/generatedTracesFromLTL/5to10Traces/0117.trace,62.2139256000519,4,(x1 & (G x0)),55.1072858707048,4,(x1 & (G x0))
+allTests/generatedTracesFromLTL/freshTests2/0267.trace,63.0119488239288,5,(G (x1 -> (G x0))),34.1805859920569,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0167.trace,63.4529948234558,3,(x0 U x1),69.7755109849386,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0023.trace,64.4104361534119,3,(! (F x0)),63.6702748797834,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0267.trace,65.1607298851013,5,(G (x1 -> (G x0))),36.1271874411032,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0167.trace,65.4923508167267,3,(x0 U x1),67.5469215316698,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0028.trace,65.6196632385254,3,(G (! x0)),70.9500112379901,3,(! (F x0))
+allTests/generatedTracesFromLTL/increasingNumVariables/0002.trace,65.8551819324493,5,(G (x1 -> (G x0))),44.1994568970986,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0028.trace,67.8913083076477,3,(G (! x0)),70.2408361788839,3,(! (F x0))
+allTests/generatedTracesFromLTL/freshTests/0026.trace,67.9490382671356,3,(! (F x0)),71.3265457828529,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests2/0026.trace,68.2845449447632,3,(! (F x0)),74.2824675268494,3,(G (! x0))
+allTests/generatedTracesFromLTL/increasingNumVariables/0001.trace,70.1927101612091,5,(G (x1 -> (G x0))),28.6382936760783,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/disjunctedExistence/0036.trace,70.460684299469,4,(F (x0 | x1)),71.2768933940679,4,(x3 | (F x1))
+allTests/generatedTracesFromLTL/freshTests/0234.trace,71.7312529087067,5,(x0 U ((F x1) -> x1)),40.7733697863296,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/disjunctedExistence/0033.trace,72.4851582050323,4,(x2 | (F x0)),51.6890871999785,4,(x2 | (F x0))
+allTests/generatedTracesFromLTL/equal/0012.trace,73.1481394767761,3,(G (! x0)),81.3921363921836,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10Traces/0169.trace,73.3070344924927,3,(x0 U x1),79.9470753967762,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10threethree/0169.trace,73.4898817539215,3,(x0 U x1),78.1304712570272,3,(x0 U x1)
+allTests/generatedTracesFromLTL/baseTest/0008.trace,74.3925824165344,3,(! (F x0)),79.1975611820817,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0178.trace,75.1900155544281,5,(G (x1 -> (G x0))),30.5212251148187,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0025.trace,75.8971009254456,3,(G (! x0)),83.2048084987327,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10twothree/0156.trace,76.5343194007874,5,((F x1) -> (x0 U x1)),26.6922919643112,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0234.trace,76.8080794811249,5,(x0 U ((F x1) -> x1)),38.8392052999698,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0178.trace,77.2764689922333,5,(G (x1 -> (G x0))),28.1152719222009,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0156.trace,77.6881272792816,5,((F x1) -> (x0 U x1)),27.4469900247641,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0029.trace,79.0815861225128,3,(G (! x0)),79.205906146206,3,(G (! x0))
+allTests/generatedTracesFromLTL/baseTest/0042.trace,79.1005394458771,5,(G (x1 -> (G x0))),33.7767126611434,5,((F x1) -> (G x0))
+allTests/generatedTracesFromLTL/freshTests/0031.trace,80.2922012805939,3,(! (F x0)),80.1920806299895,3,(! (F x0))
+allTests/generatedTracesFromLTL/5to10Traces/0027.trace,81.2723515033722,4,((x0 -> x1) U x1),72.2083818959072,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0029.trace,81.7815878391266,3,(G (! x0)),84.2362803649157,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10OneThree/0027.trace,83.8780918121338,4,((x0 -> x1) U x1),72.2982607178856,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0067.trace,85.9498195648193,6,(! (F (x1 & (x1 U x0)))),19.9167181910016,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10threethree/0171.trace,86.3292188644409,3,(x0 U x1),92.3137071728706,3,(x0 U x1)
+allTests/generatedTracesFromLTL/baseTest/0023.trace,86.3911225795746,5,(x0 U ((F x1) -> x1)),33.1129699940793,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0171.trace,87.3587181568146,3,(x0 U x1),96.0565331270918,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0032.trace,87.5834925174713,3,(G (! x0)),92.7579971780069,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0032.trace,88.692702293396,3,(G (! x0)),97.5904736560769,3,(G (! x0))
+allTests/generatedTracesFromLTL/freshTests/0067.trace,89.2438807487488,6,(! (F (x1 & (x1 U x0)))),18.3379159746692,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/increasingNumVariables/0004.trace,97.0580630302429,5,(G (x1 -> (G x0))),39.6214138478972,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/increasingNumVariables/0003.trace,99.3958201408386,5,(G (x1 -> (G x0))),54.739524283912,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0033.trace,100.996971130371,2,(G x0),98.7490503019653,2,(G x0)
+allTests/generatedTracesFromLTL/moreDetailedTest/0041.trace,103.499108076096,6,((x1 -> x0) U (! (F x0))),26.027718571946,6,((! x1) U (G (! x0)))
+allTests/generatedTracesFromLTL/freshTests/0254.trace,109.283135175705,3,(x0 U x1),115.639263062272,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests/0041.trace,110.471297979355,4,((x0 -> x1) U x1),95.0552474730648,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/disjunctedExistence/0042.trace,111.70728969574,4,(F (x0 | x2)),111.451204247773,4,(F (x0 | x2))
+allTests/generatedTracesFromLTL/increasingNumVariables/0005.trace,112.891239643097,5,(G (x1 -> (G x0))),57.2384152780287,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0010.trace,112.899886608124,3,(G (! x0)),119.9398173308,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10threethree/0175.trace,115.769538402557,3,(x0 U x1),116.106063431129,3,(x0 U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0175.trace,116.43899679184,3,(x0 U x1),120.696771101095,3,(x0 U x1)
+allTests/generatedTracesFromLTL/freshTests2/0041.trace,118.977487564087,4,((x0 -> x1) U x1),94.5844524516724,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0029.trace,119.695695877075,4,((! x0) U x1),109.95327637298,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0029.trace,119.725052833557,4,((! x0) U x1),106.424881725106,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests/0270.trace,120.34162569046,5,(G (x1 -> (G x0))),83.8724370338023,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0270.trace,126.582276344299,5,(G (x1 -> (G x0))),79.1327483309433,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0096.trace,133.223289251328,5,(x0 U ((F x1) -> x1)),59.9814318157732,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0237.trace,137.810441493988,5,(x0 U ((F x1) -> x1)),75.9793366394006,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10threethree/0180.trace,138.384796142578,5,(G (x1 -> (G x0))),92.2460070550442,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0180.trace,140.554213523865,5,(G (x1 -> (G x0))),94.8065232210793,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0124.trace,143.524173021317,5,(G (x1 -> (G x0))),61.9312137630768,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/disjunctedExistence/0045.trace,148.688668966293,4,(F (x0 | x2)),148.562227525283,4,(F (x0 | x2))
+allTests/generatedTracesFromLTL/baseTest/0011.trace,149.040256977081,3,(G (! x0)),162.986532009207,3,(! (F x0))
+allTests/generatedTracesFromLTL/increasingNumVariables/0006.trace,150.650491714478,5,(G (x1 -> (G x0))),52.2444916768,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0041.trace,155.774466991425,5,(G (x1 -> (G x0))),82.8017660318874,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0027.trace,163.007496356964,5,((F x1) -> (x0 U x1)),89.7580801639706,5,((F (x0 U x1)) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0235.trace,165.460562467575,5,((F x1) -> (x0 U x1)),64.8348307088017,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10twothree/0158.trace,167.823758363724,5,((F (x0 U x1)) -> (x0 U x1)),78.8730030511506,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0235.trace,168.827544689178,5,((F x1) -> (x0 U x1)),66.9092778707855,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0158.trace,169.134810686111,5,((F (x0 U x1)) -> (x0 U x1)),78.76842134865,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/increasingNumVariables/0007.trace,169.608191728592,5,(G (x1 -> (G x0))),55.8239528960548,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0031.trace,171.769002914429,4,((x0 -> x1) U x1),145.080950428732,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/disjunctedExistence/0010.trace,182.037657022476,4,((F x1) U x2),141.485710666981,4,((F x1) U x2)
+allTests/generatedTracesFromLTL/5to10threethree/0179.trace,184.091675281525,5,(G (x1 -> (G x0))),61.9461779119447,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0268.trace,189.127600669861,5,(G (x1 -> (G x0))),72.9040144430473,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0179.trace,189.918251514435,5,(G (x1 -> (G x0))),65.868821810931,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0037.trace,190.083318471909,5,((F x1) -> (G x0)),58.7949250750244,5,((F x1) -> (G x0))
+allTests/generatedTracesFromLTL/freshTests/0240.trace,194.606146097183,5,((F (x0 U x1)) -> (x0 U x1)),131.097879710607,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0268.trace,195.893687963486,5,(G (x1 -> (G x0))),72.291219281964,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0240.trace,205.751564025879,5,((F (x0 U x1)) -> (x0 U x1)),131.321334335022,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0031.trace,206.446096658707,4,((x0 -> x1) U x1),136.887963342015,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0033.trace,217.518108606339,4,((x0 -> x1) U x1),199.261561335996,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0033.trace,218.852353572845,4,((x0 -> x1) U x1),200.372262306046,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10twothree/0160.trace,229.357136011124,5,((F x1) -> (x0 U x1)),87.1208271230571,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/baseTest/0027.trace,232.553180932999,5,((F x1) -> (x0 U x1)),104.28224322293,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0273.trace,237.949278831482,5,(G (x1 -> (G x0))),143.697318508755,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0160.trace,238.193982601166,5,((F x1) -> (x0 U x1)),91.346928272862,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/baseTest/0007.trace,240.937351465225,6,((((X x1) -> x0) U x1) -> x1),41.899833928328,6,(((x0 | (X x0)) U x1) -> x1)
+allTests/generatedTracesFromLTL/5to10Traces/0182.trace,245.527543544769,5,(G (x1 -> (G x0))),141.139896714129,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0273.trace,246.405911207199,5,(G (x1 -> (G x0))),145.001820671372,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0035.trace,254.165797948837,4,((x0 -> x1) U x1),212.685338010546,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/5to10threethree/0182.trace,254.960879564285,5,(G (x1 -> (G x0))),134.371729617938,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10OneThree/0035.trace,255.465347528458,4,((x0 -> x1) U x1),218.069942828035,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0098.trace,260.098371505737,5,((F x1) -> (x0 U x1)),92.0083545716479,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0104.trace,262.943786621094,5,((F x1) U ((F x1) & x0)),103.200916903093,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/equal/0002.trace,276.336257219315,6,((F x1) -> ((x0 -> x1) U x1)),36.8913675588556,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0126.trace,283.965331315994,5,(G (x1 -> (G x0))),87.7754455297254,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0037.trace,285.342885971069,4,((! x0) U x1),232.968526246026,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0037.trace,286.275511741638,4,((! x0) U x1),225.613757441984,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0050.trace,288.703177928925,4,((x0 -> x1) U x1),245.298367728014,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0104.trace,291.075170516968,5,((F x1) U ((F x1) & x0)),92.5373692349531,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0050.trace,292.734030723572,4,((x0 -> x1) U x1),247.926108167972,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0030.trace,300.273212432861,6,(x0 U (! ((F x1) U x0))),45.3423966290429,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0058.trace,306.056379318237,6,((G (F x1)) | (x0 & (F x1))),40.3469928437844,6,((x0 & (F x1)) | (G (F x1)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0113.trace,314.969963312149,5,(G (x1 -> (G x0))),155.785666199867,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0243.trace,319.28987789154,5,((F x1) -> (x0 U x1)),149.22861961415,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0269.trace,319.776752233505,5,(G (x1 -> (G x0))),135.453725622967,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0271.trace,321.970218896866,5,(G (x1 -> (G x0))),160.495999546256,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0243.trace,332.973004579544,5,((F x1) -> (x0 U x1)),146.4018390649,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0269.trace,335.17099404335,5,(G (x1 -> (G x0))),134.793266233057,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0271.trace,336.317028284073,5,(G (x1 -> (G x0))),181.046717171092,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0162.trace,336.649108171463,5,(x0 U ((F x1) -> x1)),126.022154909093,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0246.trace,345.746911287308,5,((F x1) -> (x0 U x1)),198.791008574888,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10twothree/0162.trace,347.136863708496,5,(x0 U ((F x1) -> x1)),121.919400652871,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0039.trace,348.629611968994,4,((! x0) U x1),307.933339656796,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10OneThree/0039.trace,350.586322307587,4,((! x0) U x1),315.669461028883,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/freshTests2/0246.trace,352.164166212082,5,((F x1) -> (x0 U x1)),196.765325414017,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0085.trace,360.590901851654,5,(x0 U ((F x1) -> x1)),123.026874095667,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0238.trace,367.257065296173,5,((F x1) -> (x0 U x1)),136.628726290073,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0071.trace,368.744371175766,5,(F ((X x1) & x0)),106.94577462133,5,(F (x0 & (X x1)))
+allTests/generatedTracesFromLTL/5to10OneThree/0071.trace,370.231122016907,5,(F ((X x1) & x0)),107.081448412966,5,(F (x0 & (X x1)))
+allTests/generatedTracesFromLTL/baseTest/0012.trace,374.788416147232,3,(G (! x0)),414.078578991815,3,(G (! x0))
+allTests/generatedTracesFromLTL/5to10threethree/0184.trace,378.419345617294,5,(G (x1 -> (G x0))),119.189155846834,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0238.trace,384.261034965515,5,((F x1) -> (x0 U x1)),134.914204432163,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10threethree/0181.trace,384.605624675751,5,(G (x1 -> (G x0))),166.708480812144,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0181.trace,385.647433757782,5,(G (x1 -> (G x0))),176.11532468861,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0022.trace,385.866563081741,5,((F x1) -> (x0 U x1)),138.156422108877,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0184.trace,387.737951278687,5,(G (x1 -> (G x0))),124.156033410225,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0036.trace,391.180955171585,5,(G (x1 -> (G x0))),179.523632301018,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0276.trace,399.878973007202,5,(G (x1 -> (G x0))),142.73397975415,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0276.trace,417.255415678024,5,(G (x1 -> (G x0))),141.332118135877,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0041.trace,419.958075046539,4,((x0 -> x1) U x1),450.196751664393,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/freshTests/0279.trace,421.715626478195,5,(G (x1 -> (G x0))),208.732628719881,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10OneThree/0041.trace,432.952165365219,4,((x0 -> x1) U x1),473.469219066901,4,((x0 -> x1) U x1)
+allTests/generatedTracesFromLTL/moreDetailedTest/0115.trace,449.993547916412,5,(G (x1 -> (G x0))),227.414559524041,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10twothree/0164.trace,450.795758247376,5,(x0 U ((F x1) -> x1)),190.016267263796,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0241.trace,463.079053401947,5,((F x1) -> (x0 U x1)),214.082508374006,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0164.trace,466.643690824509,5,(x0 U ((F x1) -> x1)),196.523278824054,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0241.trace,473.781996011734,5,((F x1) -> (x0 U x1)),212.106147039216,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0088.trace,483.148686408997,5,(x0 U ((F x1) -> x1)),197.495624281932,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0166.trace,488.07232427597,5,(x0 U ((F x1) -> x1)),238.911915000062,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0087.trace,488.720282793045,5,((F x1) -> (x0 U x1)),173.877595579717,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0043.trace,497.504427671433,4,((! x0) U x1),425.026786746923,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10threethree/0186.trace,499.327201604843,5,(G (x1 -> (G x0))),285.441999796778,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10OneThree/0043.trace,503.305651664734,4,((! x0) U x1),436.53326942795,4,((! x0) U x1)
+allTests/generatedTracesFromLTL/5to10Traces/0166.trace,504.097595691681,5,(x0 U ((F x1) -> x1)),232.932706627995,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0186.trace,507.686707735062,5,(G (x1 -> (G x0))),291.508711912669,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0249.trace,509.881124734879,5,((F x1) -> (x0 U x1)),198.852185538039,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0116.trace,510.025276899338,5,(G (x1 -> (G x0))),335.999409963842,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0024.trace,512.100548505783,5,(x0 U ((F x1) -> x1)),242.532271385193,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0282.trace,517.51022195816,5,(G (x1 -> (G x0))),291.948853897396,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0249.trace,523.652702093124,5,((F x1) -> (x0 U x1)),196.580427102745,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0252.trace,524.916093111038,5,((F x1) -> (x0 U x1)),254.099033488892,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0274.trace,527.017460346222,5,(G (x1 -> (G x0))),258.878126360942,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0252.trace,541.555741548538,5,((F x1) -> (x0 U x1)),258.735846091993,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0188.trace,550.06680059433,5,(G (x1 -> (G x0))),230.738255729899,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0168.trace,554.842355489731,5,(x0 U ((F x1) -> x1)),306.013548491988,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0036.trace,556.868535518646,6,((! x0) U ((F x1) -> x1)),181.899668592028,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10threethree/0188.trace,564.674100399017,5,(G (x1 -> (G x0))),215.389215117786,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0168.trace,566.930668354034,5,(x0 U ((F x1) -> x1)),292.755506134126,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0036.trace,572.830577373505,6,((! x0) U ((F x1) -> x1)),184.879810853861,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0285.trace,574.606854200363,5,(G (x1 -> (G x0))),284.754029118922,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0282.trace,576.750757694244,5,(G (x1 -> (G x0))),289.560434257146,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0190.trace,579.819112062454,5,(G (x1 -> (G x0))),260.813313202001,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0190.trace,584.346792936325,5,(G (x1 -> (G x0))),263.690573137719,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0073.trace,586.077496290207,5,((F x1) U (x0 & (F x1))),187.831847130787,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0255.trace,586.451078653336,5,((F x1) -> (x0 U x1)),319.486583244056,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0089.trace,588.977551460266,5,(x0 U ((F x1) -> x1)),202.555686448701,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0073.trace,594.79160451889,5,((F x1) U (x0 & (F x1))),186.41959911515,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests2/0107.trace,597.251737356186,5,(F ((F x1) & x0)),225.31996525079,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0107.trace,600.301177024841,5,(F ((F x1) & x0)),219.821976813953,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0117.trace,609.028027772903,5,(G (x1 -> (G x0))),281.027343097143,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0038.trace,612.421992301941,5,(G (x1 -> (G x0))),251.003304447047,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0258.trace,645.213844299316,5,((F x1) -> (x0 U x1)),298.677509141155,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0288.trace,646.275586366653,5,(G (x1 -> (G x0))),457.419275334105,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0069.trace,665.045279502869,6,(G (! ((F x0) & x1))),316.891200256068,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0291.trace,669.900690317154,5,(G (x1 -> (G x0))),414.52486181492,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0291.trace,696.581198453903,5,(G (x1 -> (G x0))),400.792574973777,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0022.trace,700.83354973793,5,((F x1) -> (x0 U x1)),279.973809107672,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0183.trace,714.492776632309,5,(G (x1 -> (G x0))),206.287462816108,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0039.trace,729.958467245102,5,(G (x1 -> (G x0))),304.130761739332,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0244.trace,738.326698303223,5,(x0 U ((F x1) -> x1)),271.334321424831,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10threethree/0183.trace,741.822316646576,5,(G (x1 -> (G x0))),197.565971225034,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0244.trace,745.363150835037,5,(x0 U ((F x1) -> x1)),271.749376931228,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0046.trace,750.395720005035,6,(! ((F x0) U (x1 & (F x0)))),215.997589874081,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0075.trace,751.314488887787,5,((F x1) U (x0 & (F x1))),255.109104631701,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0075.trace,757.889125108719,5,((F x1) U (x0 & (F x1))),255.861240162048,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0272.trace,760.875386953354,5,(G (x1 -> (G x0))),343.057627778966,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0272.trace,761.942760229111,5,(G (x1 -> (G x0))),341.213541870937,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0170.trace,771.343302249908,5,((F x1) -> (x0 U x1)),279.262876446825,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0170.trace,773.411911964417,5,((F x1) -> (x0 U x1)),280.493374335114,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0261.trace,781.588859319687,5,(x0 U ((F x1) -> x1)),347.208069520071,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0261.trace,787.827180624008,5,(x0 U ((F x1) -> x1)),353.074511803221,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0090.trace,795.256286621094,5,(x0 U ((F x1) -> x1)),250.115294047166,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0046.trace,804.659300088883,6,(! ((F x0) U (x1 & (F x0)))),209.40587227419,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0118.trace,819.815643548965,5,(G (x1 -> (G x0))),375.463585560676,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0185.trace,845.772158622742,5,(G (x1 -> (G x0))),260.420249667019,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0185.trace,853.433436632156,5,(G (x1 -> (G x0))),259.006032214034,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0025.trace,869.36338019371,5,((F x1) -> (x0 U x1)),419.75173961604,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/baseTest/0021.trace,885.156718254089,6,(! ((F x0) U (x1 & (F x0)))),218.89425610099,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0277.trace,899.997304201126,5,(G (x1 -> (G x0))),402.790437897202,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0294.trace,923.016867876053,5,(G (x1 -> (G x0))),449.49437326286,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0192.trace,923.78066110611,5,(G (x1 -> (G x0))),340.092486246955,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0277.trace,935.004848480225,5,(G (x1 -> (G x0))),414.068088979926,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0294.trace,959.166512727737,5,(G (x1 -> (G x0))),454.427344365977,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0110.trace,959.27969789505,5,((F x1) U (x0 & (F x1))),316.864395905286,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0172.trace,962.333050966263,5,((F x1) -> (x0 U x1)),491.772228824906,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0077.trace,962.671197414398,5,((F x1) U (x0 & (F x1))),345.052377373911,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10threethree/0192.trace,964.391437530518,5,(G (x1 -> (G x0))),342.572647687048,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0172.trace,964.893915891647,5,((F x1) -> (x0 U x1)),465.63774678437,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0077.trace,965.683782577515,5,((F x1) U (x0 & (F x1))),331.810365980957,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0110.trace,968.651648759842,5,((F x1) U (x0 & (F x1))),333.312597041018,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0024.trace,1017.47986578941,6,((x0 U (! x0)) -> ((! x0) U x1)),109.815843705088,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0187.trace,1017.83753252029,5,(G (x1 -> (G x0))),336.248019217048,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0187.trace,1021.82360053062,5,(G (x1 -> (G x0))),318.684182699304,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10OneThree/0024.trace,1045.10124659538,6,((x0 U (! x0)) -> ((! x0) U x1)),90.6139697970357,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0247.trace,1083.283244133,5,((F x1) -> (x0 U x1)),389.960195042659,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0247.trace,1094.25704669952,5,((F x1) -> (x0 U x1)),393.772612039931,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0250.trace,1098.55694842339,5,(x0 U ((F x1) -> x1)),432.52427986823,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0250.trace,1099.79036903381,5,(x0 U ((F x1) -> x1)),420.317193793133,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/baseTest/0025.trace,1139.7543797493,5,(x0 U ((F x1) -> x1)),544.730160844047,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/baseTest/0041.trace,1162.10922050476,5,(G (x1 -> (G x0))),459.781202530023,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0092.trace,1164.69555783272,5,((F x1) -> (x0 U x1)),535.047058927361,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0194.trace,1166.51530599594,5,(G (x1 -> (G x0))),426.150489538908,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0024.trace,1169.29012084007,5,((F x1) -> (x0 U x1)),446.458263041917,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0174.trace,1179.18853878975,5,(x0 U ((F x1) -> x1)),458.83847357519,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0091.trace,1185.28948783875,5,((F x1) -> (x0 U x1)),478.444863865152,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0194.trace,1200.25538802147,5,(G (x1 -> (G x0))),401.000608203933,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0174.trace,1201.11493587494,5,(x0 U ((F x1) -> x1)),487.772741253953,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0196.trace,1217.65560293198,5,(G (x1 -> (G x0))),506.605896043126,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0196.trace,1222.70330715179,5,(G (x1 -> (G x0))),496.491391778924,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0286.trace,1245.76906037331,5,(G (x1 -> (G x0))),505.783683141228,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0275.trace,1265.37913417816,5,(G (x1 -> (G x0))),492.667149977759,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0286.trace,1275.81079769135,5,(G (x1 -> (G x0))),505.502833238803,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0120.trace,1293.03950572014,5,(G (x1 -> (G x0))),610.930460747331,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0280.trace,1297.29164028168,5,(G (x1 -> (G x0))),489.872985085007,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0121.trace,1308.77731609344,5,(G (x1 -> (G x0))),469.860528176185,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0275.trace,1317.5708258152,5,(G (x1 -> (G x0))),488.203254892956,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0039.trace,1318.87645339966,6,((! x0) U ((F x1) -> x1)),320.367432394065,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0119.trace,1346.21194124222,5,(G (x1 -> (G x0))),403.817525430117,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0039.trace,1362.96579241753,6,((! x0) U ((F x1) -> x1)),306.992836650927,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/baseTest/0016.trace,1368.60753679276,6,(! ((F (X x0)) U x1)),267.528986582998,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0283.trace,1375.18166828156,5,(G (x1 -> (G x0))),502.429911918007,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0253.trace,1423.8570959568,5,(x0 U ((F x1) -> x1)),451.219117366709,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0253.trace,1459.17167520523,5,(x0 U ((F x1) -> x1)),444.691566461232,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0280.trace,1463.24208760262,5,(G (x1 -> (G x0))),510.020626977086,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0283.trace,1493.05567455292,5,(G (x1 -> (G x0))),509.915213289205,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0072.trace,1495.31661605835,6,(G (x1 -> (! (F x0)))),253.575010258239,6,(G (x1 -> (! (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0012.trace,1506.17856287956,6,((F x1) -> ((x0 -> x1) U x1)),204.807351573836,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/equal/0006.trace,1521.92114281654,6,((x0 -> x1) U ((F x1) -> x1)),325.132448826916,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0048.trace,1527.25280809402,6,(G (x1 -> (G (! x0)))),511.934492242057,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0093.trace,1528.06643557549,5,((F x1) -> (x0 U x1)),516.700481209904,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/equal/0020.trace,1531.00211334229,6,(! ((F x0) U ((F x0) & x1))),461.909880901221,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0048.trace,1562.50778627396,6,(G (x1 -> (G (! x0)))),456.558907513972,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0189.trace,1565.66886258125,5,(G (x1 -> (G x0))),486.502275377046,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0037.trace,1605.78089475632,6,((! x0) U ((F x1) -> x1)),185.740501639899,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0189.trace,1611.29057478905,5,(G (x1 -> (G x0))),464.320159878116,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0040.trace,1615.6157886982,6,(! ((F x0) U (x1 & (F x0)))),214.696241433732,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0195.trace,1620.97349119186,5,(G (x1 -> (G x0))),695.328559448943,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0113.trace,1632.1356139183,5,(F ((F x1) & x0)),586.611073632725,5,(F (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests2/0113.trace,1639.0350060463,5,(F ((F x1) & x0)),584.816783556715,5,(F (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0037.trace,1652.92349100113,6,((! x0) U ((F x1) -> x1)),207.433198140934,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10threethree/0195.trace,1669.95401930809,5,(G (x1 -> (G x0))),700.271162017714,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10twothree/0083.trace,1675.55360770226,5,((F x1) U ((F x1) & x0)),610.985195265152,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0191.trace,1679.47818827629,5,(G (x1 -> (G x0))),521.458358678967,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0083.trace,1690.8823390007,5,((F x1) U ((F x1) & x0)),605.090422237292,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0242.trace,1696.07143521309,5,((F x1) -> (x0 U x1)),552.765541657805,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0026.trace,1720.63847017288,6,((x0 -> x1) U ((F x1) -> x1)),185.163419160992,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0193.trace,1726.60723161697,5,(G (x1 -> (G x0))),609.418934005778,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0191.trace,1745.30019187927,5,(G (x1 -> (G x0))),500.272269445937,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10threethree/0193.trace,1745.88453435898,5,(G (x1 -> (G x0))),605.228580169845,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0026.trace,1758.45738220215,6,((x0 -> x1) U ((F x1) -> x1)),201.038448039908,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0081.trace,1761.84735941887,5,((F x1) U (x0 & (F x1))),521.556654399727,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10twothree/0081.trace,1776.69199228287,5,((F x1) U (x0 & (F x1))),493.261782878079,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests2/0245.trace,10000,,,595.854015102144,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10twothree/0087.trace,10000,,,596.212688845117,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10twothree/0085.trace,10000,,,600.059331693221,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0087.trace,10000,,,612.301474203821,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0245.trace,10000,,,612.534292208962,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0119.trace,10000,,,619.916406255681,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0085.trace,10000,,,622.034522506874,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/freshTests/0119.trace,10000,,,624.878969528712,5,((F x1) U (x0 & (F x1)))
+allTests/generatedTracesFromLTL/5to10threethree/0197.trace,10000,,,633.928983082995,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/5to10Traces/0197.trace,10000,,,634.847138395999,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0256.trace,10000,,,654.917076505721,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0256.trace,10000,,,687.985771157779,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0281.trace,10000,,,696.164608119056,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0278.trace,10000,,,710.124026223086,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0281.trace,10000,,,710.63551703468,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0278.trace,10000,,,732.058119257912,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0259.trace,10000,,,755.983859741129,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0122.trace,10000,,,763.267993065063,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0094.trace,10000,,,775.264341364149,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/baseTest/0038.trace,10000,,,875.730514783878,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0248.trace,10000,,,956.121063874103,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0248.trace,10000,,,979.29293720983,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0289.trace,10000,,,982.947381881997,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0257.trace,10000,,,1027.06240153313,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0257.trace,10000,,,1030.44129631482,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0095.trace,10000,,,1032.76943971403,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests/0292.trace,10000,,,1078.29022058379,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0123.trace,10000,,,1078.75545769511,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0284.trace,10000,,,1101.45685924264,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0040.trace,10000,,,1120.36231331388,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0284.trace,10000,,,1128.24608583003,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0262.trace,10000,,,1184.02289308328,5,((F (x0 U x1)) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0262.trace,10000,,,1191.25449957978,5,((F (x0 U x1)) -> (x0 U x1))
+allTests/generatedTracesFromLTL/disjunctedExistence/0067.trace,10000,,,1194.61680408334,5,((G x0) | (G x3))
+allTests/generatedTracesFromLTL/freshTests/0251.trace,10000,,,1304.28480046988,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0251.trace,10000,,,1317.588862943,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0293.trace,10000,,,1321.85617749207,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/equal/0026.trace,10000,,,1322.61957264133,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0293.trace,10000,,,1348.31687715091,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0260.trace,10000,,,1388.66694227187,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/freshTests2/0260.trace,10000,,,1416.64633245533,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10threethree/0173.trace,10000,,,1536.99785259599,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0173.trace,10000,,,1539.69414872117,5,(x0 U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0295.trace,10000,,,1565.82311070804,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0290.trace,10000,,,1571.83473499306,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0295.trace,10000,,,1592.23657202115,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/baseTest/0036.trace,10000,,,1598.51116137207,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0296.trace,10000,,,1600.84953873139,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0290.trace,10000,,,1620.94828644209,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests2/0296.trace,10000,,,1657.99428363983,5,(G (x1 -> (G x0)))
+allTests/generatedTracesFromLTL/freshTests/0263.trace,10000,,,1682.3421539343,5,((F x1) -> (x0 U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0047.trace,10000,,,257.651791963959,6,(! ((F (X x0)) U x1))
+allTests/generatedTracesFromLTL/freshTests/0070.trace,10000,,,273.183266778942,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0047.trace,10000,,,275.137836264912,6,(! ((F (X x0)) U x1))
+allTests/generatedTracesFromLTL/freshTests2/0070.trace,10000,,,282.424579485785,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0042.trace,10000,,,341.04186390806,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0028.trace,10000,,,426.025302966125,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0028.trace,10000,,,430.59836455388,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0001.trace,10000,,,443.069812163245,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0014.trace,10000,,,460.173224851955,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0049.trace,10000,,,466.719060715986,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0049.trace,10000,,,469.839903569315,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0075.trace,10000,,,475.056173049379,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0032.trace,10000,,,507.808118517045,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0032.trace,10000,,,510.944398037624,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0075.trace,10000,,,513.789543161169,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests2/0042.trace,10000,,,516.665062840097,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/baseTest/0006.trace,10000,,,535.922340572812,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0042.trace,10000,,,559.247912542894,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests2/0084.trace,10000,,,562.546824682038,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests/0084.trace,10000,,,575.11543506477,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0029.trace,10000,,,593.676984900143,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0030.trace,10000,,,607.764453112846,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0050.trace,10000,,,611.918732619844,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests2/0040.trace,10000,,,612.882610137574,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0040.trace,10000,,,614.096961344127,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0050.trace,10000,,,619.128925967962,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0030.trace,10000,,,634.58076733537,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0051.trace,10000,,,648.451803409029,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0051.trace,10000,,,657.429272721056,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/equal/0001.trace,10000,,,662.98091860069,6,((F ((! x0) U x1)) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0038.trace,10000,,,720.548609656049,6,((F ((! x0) U x1)) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests2/0045.trace,10000,,,721.878280285746,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0058.trace,10000,,,744.068158159033,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0038.trace,10000,,,745.205993911251,6,((F ((! x0) U x1)) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0058.trace,10000,,,745.865291328169,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0003.trace,10000,,,785.771703920793,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0045.trace,10000,,,797.617858759128,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0034.trace,10000,,,815.509943697602,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0078.trace,10000,,,838.537651280873,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/baseTest/0001.trace,10000,,,842.426256700885,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests/0073.trace,10000,,,846.364575570915,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0078.trace,10000,,,848.179925458971,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/equal/0003.trace,10000,,,870.637021248695,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/equal/0015.trace,10000,,,875.331963939127,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests2/0046.trace,10000,,,953.733809405006,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests/0046.trace,10000,,,968.703280850314,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0005.trace,10000,,,976.20832053991,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0052.trace,10000,,,984.260437186807,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0071.trace,10000,,,989.845780018717,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0052.trace,10000,,,992.709790286142,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0048.trace,10000,,,993.788497115951,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests/0071.trace,10000,,,996.215584082995,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0074.trace,10000,,,1031.43542348919,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0040.trace,10000,,,1070.106775444,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0074.trace,10000,,,1070.6084004622,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0076.trace,10000,,,1078.53815679671,6,(G (! (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0076.trace,10000,,,1084.56142814923,6,(G (! (x1 & (F x0))))
+allTests/generatedTracesFromLTL/moreDetailedTest/0004.trace,10000,,,1112.14154257812,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0040.trace,10000,,,1118.27797021111,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0031.trace,10000,,,1133.68358031986,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0036.trace,10000,,,1188.49042794597,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0032.trace,10000,,,1207.56098652212,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0036.trace,10000,,,1224.36684131017,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0077.trace,10000,,,1246.31544048805,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0077.trace,10000,,,1251.41119322367,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0034.trace,10000,,,1260.57959708804,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0006.trace,10000,,,1263.67048715381,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0087.trace,10000,,,1272.96883893013,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0043.trace,10000,,,1274.9860312799,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests2/0043.trace,10000,,,1276.97299285838,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/5to10Traces/0034.trace,10000,,,1277.20094782999,6,((x0 -> x1) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0055.trace,10000,,,1299.11399164819,6,(G (x1 -> (! (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0087.trace,10000,,,1310.74224737519,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0055.trace,10000,,,1332.44039658317,6,(G (x1 -> (! (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0081.trace,10000,,,1353.85903748497,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests2/0088.trace,10000,,,1413.83516462473,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests/0088.trace,10000,,,1417.93531025294,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests/0063.trace,10000,,,1423.69450507034,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0063.trace,10000,,,1423.94775727345,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests/0081.trace,10000,,,1429.70346947899,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0064.trace,10000,,,1531.58865917986,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0049.trace,10000,,,1535.42050151294,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0051.trace,10000,,,1538.60926099587,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0049.trace,10000,,,1577.1587452651,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/freshTests2/0079.trace,10000,,,1584.64023296302,6,(G ((F x0) -> (! x1)))
+allTests/generatedTracesFromLTL/freshTests/0051.trace,10000,,,1587.5584522211,6,((! x0) U ((F x1) -> x1))
+allTests/generatedTracesFromLTL/5to10Traces/0064.trace,10000,,,1591.16992398491,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0079.trace,10000,,,1609.55489677377,6,(G ((F x0) -> (! x1)))
+allTests/generatedTracesFromLTL/freshTests2/0093.trace,10000,,,1680.38517411007,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0062.trace,10000,,,1682.57376928302,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/freshTests2/0083.trace,10000,,,1695.19118652772,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0083.trace,10000,,,1704.99127893895,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/equal/0017.trace,10000,,,1711.55865297606,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests2/0044.trace,10000,,,1720.00822595181,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/freshTests/0093.trace,10000,,,1731.893360171,6,(! ((F x0) U (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0062.trace,10000,,,1734.08884629398,6,(G (x1 -> (G (! x0))))
+allTests/generatedTracesFromLTL/equal/0004.trace,10000,,,1735.34453123668,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests2/0057.trace,10000,,,1737.35662030708,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/moreDetailedTest/0007.trace,10000,,,1750.66262518289,6,((F x1) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/freshTests/0057.trace,10000,,,1756.34221287817,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
+allTests/generatedTracesFromLTL/5to10OneThree/0056.trace,10000,,,1761.77851691213,6,(! (F (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10Traces/0054.trace,10000,,,1767.92604159098,6,(G (! (x1 & (F x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0054.trace,10000,,,1774.10010403185,6,(G (! (x1 & (F x0))))
+allTests/generatedTracesFromLTL/freshTests/0044.trace,10000,,,1784.29442589497,6,((F x1) -> ((! x0) U x1))
+allTests/generatedTracesFromLTL/increasingNumVariables/0008.trace,10000,,,791.259192526806,7,(G ((x1 & x2) -> (G x0)))
+allTests/generatedTracesFromLTL/increasingNumVariables/0016.trace,10000,,,855.256212153938,7,(G (x3 -> (x1 -> (! x2))))
+allTests/generatedTracesFromLTL/freshTests/0102.trace,10000,,,875.171364467125,7,((F x0) -> (F (x0 & (x0 U x1))))
+allTests/generatedTracesFromLTL/freshTests2/0102.trace,10000,,,904.596684933174,7,((F x0) -> (F (x0 & (x0 U x1))))
+allTests/generatedTracesFromLTL/increasingNumVariables/0010.trace,10000,,,995.098936338909,7,(G (x1 -> (x2 -> (G x0))))
+allTests/generatedTracesFromLTL/5to10OneThree/0068.trace,10000,,,1006.68380862707,7,((F (x0 & x1)) | (G (F x1)))
+allTests/generatedTracesFromLTL/5to10Traces/0068.trace,10000,,,1029.08707141504,7,((F (x0 & x1)) | (G (F x1)))
+allTests/generatedTracesFromLTL/increasingNumVariables/0011.trace,10000,,,1268.28207736788,7,((F (x1 & x2)) -> (G x0))
+allTests/generatedTracesFromLTL/increasingNumVariables/0009.trace,10000,,,1555.37368094129,7,(G ((x1 & x2) -> (G x0)))
+allTests/generatedTracesFromLTL/moreDetailedTest/0068.trace,10000,,,1576.25398456305,7,((F x0) -> (F (x0 & (F x1))))
+allTests/generatedTracesFromLTL/5to10Traces/0070.trace,10000,,,1764.404597071,7,((F x0) -> ((F x1) U (x0 & (F x1))))
+allTests/generatedTracesFromLTL/5to10OneThree/0042.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0053.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0057.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0059.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0063.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0065.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0070.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0072.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0074.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0076.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0078.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10OneThree/0079.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0042.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0053.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0056.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0057.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0059.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0063.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0065.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0072.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0074.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0076.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0078.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0079.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0080.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0082.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0084.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0086.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0114.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0116.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0118.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0122.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0124.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0126.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0128.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0130.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10Traces/0131.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0080.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0082.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0084.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0086.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0114.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0116.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0118.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0122.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0124.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0126.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0128.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0130.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/5to10twothree/0131.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0003.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0004.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0005.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0015.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0017.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0018.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0019.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0020.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0026.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0039.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/baseTest/0040.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0000.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0003.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0006.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0009.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0012.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0015.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0018.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0021.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0048.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0051.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0054.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0055.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0057.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0063.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0064.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0066.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0069.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/disjunctedExistence/0070.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/equal/0005.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/equal/0018.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/equal/0019.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0047.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0052.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0053.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0054.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0055.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0056.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0058.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0059.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0062.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0064.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0065.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0080.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0082.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0085.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0086.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0089.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0090.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0091.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0092.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0094.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0095.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0096.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0097.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0098.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0103.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0105.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0106.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0108.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0109.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0111.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0112.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0114.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0115.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0116.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0117.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0118.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0120.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0121.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0122.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0123.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0124.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0125.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0126.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0127.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0128.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0129.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0130.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0131.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0168.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0169.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0171.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0174.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0175.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0177.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0178.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0179.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0180.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0181.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0183.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0184.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0186.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0187.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0189.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0190.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0192.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0193.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0194.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0195.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0196.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0197.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests/0287.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0047.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0053.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0054.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0055.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0056.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0058.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0059.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0062.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0064.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0065.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0080.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0085.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0086.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0089.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0090.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0091.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0092.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0095.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0096.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0097.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0098.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0103.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0106.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0108.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0111.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0114.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0115.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0116.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0117.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0118.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0120.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0121.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0122.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0123.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0124.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0125.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0126.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0127.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0128.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0129.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0130.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0131.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0168.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0169.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0174.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0175.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0177.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0178.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0179.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0180.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0181.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0183.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0184.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0186.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0187.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0189.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0190.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0192.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0193.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0194.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0195.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0196.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0197.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/freshTests2/0287.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0012.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0013.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0014.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0015.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0017.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0018.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0019.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0020.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0021.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0022.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0023.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0024.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0025.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0026.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0027.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0028.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0029.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0030.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0031.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0032.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0033.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0034.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0035.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0036.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0037.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0038.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0039.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0040.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0041.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0042.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0043.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0044.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0045.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0046.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0047.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0048.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0049.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0050.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0051.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0052.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0053.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0054.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/increasingNumVariables/0055.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0008.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0009.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0010.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0011.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0033.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0035.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0036.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0037.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0038.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0039.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0057.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0059.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0060.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0061.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0062.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0063.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0064.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0065.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0066.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0067.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0070.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0071.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0073.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0074.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0075.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0076.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0077.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0078.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0079.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0080.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0081.trace,10000,,,10000,,
+allTests/generatedTracesFromLTL/moreDetailedTest/0084.trace,10000,,,10000,,

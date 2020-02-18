@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/5to10Traces/0036.trace,LTL,1224.3668413101695,6,((F x1) -> ((x0 -> x1) U x1))

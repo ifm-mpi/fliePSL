@@ -1,0 +1,1 @@
+allTests/generatedTracesFromLTL/5to10Traces/0050.trace,PSL,810.9886071681976,6,(! ((F x0) U (x1 & (F x0))))
