@@ -1,4 +1,4 @@
-from samples2PSL.SATEncoding import *
+from .SATEncoding import *
 from z3 import *
 import sys
 import time
@@ -18,7 +18,7 @@ def genIterationSeq(max_i, max_j):
 
 
 
-def get_models(finalDepth, maxRegexDepth, traces, dfaSize):
+def get_models(finalDepth, maxRegexDepth, traces):
     results = []
     iteration_seq = genIterationSeq(finalDepth, maxRegexDepth)
     
@@ -26,7 +26,7 @@ def get_models(finalDepth, maxRegexDepth, traces, dfaSize):
         
         
         t_create=time.time()
-        fg = SATEncoding(i, j, traces, dfaSize)
+        fg = SATEncoding(i, j, traces)
         fg.encodeFormula()
         t_create=time.time()-t_create
         
@@ -34,7 +34,7 @@ def get_models(finalDepth, maxRegexDepth, traces, dfaSize):
         solverRes = fg.solver.check()
         t_solve=time.time()-t_solve
 
-        
+        #Print this to see constraint creation time and constraint solving time separately
         #print((i,j), "Creating time:", t_create, "Solving time:", t_solve)
         
         if solverRes == sat:
@@ -42,7 +42,7 @@ def get_models(finalDepth, maxRegexDepth, traces, dfaSize):
             formula = fg.reconstructWholeFormula(solverModel)
             results.append(formula)
             break
-            #print(format(formula.prettyPrint()))
+
 
     return results
 

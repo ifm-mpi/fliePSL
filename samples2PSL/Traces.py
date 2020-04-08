@@ -1,5 +1,5 @@
-#coverts traces from file to class Trace 	type
-def lineToTrace(line, dfaSize):
+#coverts traces from file to class Trace type
+def lineToTrace(line):
     lassoStart = None
     try:
         traceData, lassoStart = line.split('::')
@@ -7,12 +7,22 @@ def lineToTrace(line, dfaSize):
         traceData = line
     traceVector = [[bool(int(varValue)) for varValue in varsInTimestep.split(',')] for varsInTimestep in
                    traceData.split(';')]
-    trace = Trace(traceVector, lassoStart, dfaSize)
+    trace = Trace(traceVector, lassoStart)
     return trace
+
+'''
+-Each time-point consists of a list of boolean values (a letter) [x_1,...,x_n] representing 
+ the truth of proposition x_i at that time-point
+-traceVector is a list of letters.
+-traceVector has two parts
+    - u is the finite prefix, ending before 'lassoStart' 
+    - v is the finite lasso, starting at position 'lassoStart'
+
+'''
 
 
 class Trace:
-    def __init__(self, traceVector, lassoStart=None, dfaSize=3):
+    def __init__(self, traceVector, lassoStart=None):
         self.lengthOfTrace = len(traceVector)
         if lassoStart != None:
             self.lassoStart = int(lassoStart)
@@ -27,20 +37,19 @@ class Trace:
         self.uLength= self.lengthOfTrace - self.vLength
         self.numVariables = len(traceVector[0])
         self.traceVector = traceVector
-        #self.extendedTraceVector=self.extendedTrace(dfaSize)
         self.literals = ["x" + str(i) for i in range(self.numVariables)]
         
         
     def __repr__(self):
         return repr(self.traceVector) + "\n" + repr(self.lassoStart) + "\n\n"
-#loops around in lasso needs to be changed
+
     def nextPos(self, currentPos):
         if currentPos == self.lengthOfTrace - 1:
             return self.lassoStart
         else:
             return currentPos + 1
 
-
+    # returns all future positions required for Until operator
     def futurePos(self, currentPos):
         futurePositions = []
         alreadyGathered = set()
@@ -48,13 +57,15 @@ class Trace:
             futurePositions.append(currentPos)
             alreadyGathered.add(currentPos)
             currentPos = self.nextPos(currentPos)
-        # always add a new one so that all the next-relations are captured
         futurePositions.append(currentPos)
         return futurePositions
 
-    def extendedTrace(self, dfaSize):
+    # returns unrolled trace required for Triggers operator
+    def extendedTrace(self, nfaSize=None):
+        if nfaSize==None:
+              raise Exception("bounds for extending the trace is not provided")
         extTrace=self.traceVector
-        b=dfaSize
+        b=nfaSize
         v=[self.traceVector[i] for i in range(self.lassoStart, self.lengthOfTrace)]
         extTrace=extTrace+(v*b)
         self.extendedTraceLength=len(extTrace)
@@ -70,7 +81,7 @@ class Trace:
 
 
 class ExperimentTraces:
-    def __init__(self, tracesToAccept=None, tracesToReject=None, dfaSize=None):
+    def __init__(self, tracesToAccept=None, tracesToReject=None):
         if tracesToAccept != None:
             self.acceptedTraces = tracesToAccept
         else:
@@ -80,10 +91,7 @@ class ExperimentTraces:
             self.rejectedTraces = tracesToReject
         else:
             self.rejectedTraces = []
-        if dfaSize != None:
-        	self.dfaSize = dfaSize
-        else:
-        	self.dfaSize =dfaSize
+
 
 
  
@@ -111,13 +119,13 @@ class ExperimentTraces:
             else:
                 if readingMode == 0:
 
-                    trace = lineToTrace(line, self.dfaSize)
+                    trace = lineToTrace(line)
                     trace.intendedEvaluation = True
 
                     self.acceptedTraces.append(trace)
 
                 elif readingMode == 1:
-                    trace = lineToTrace(line, self.dfaSize)
+                    trace = lineToTrace(line)
                     trace.intendedEvaluation = False
                     self.rejectedTraces.append(trace)
                 else:

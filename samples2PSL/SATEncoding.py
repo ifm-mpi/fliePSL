@@ -1,50 +1,37 @@
 from z3 import *
-from samples2PSL.Traces import Trace, ExperimentTraces
-from samples2PSL.SimpleTree import SimpleTree, Formula
+from .Traces import Trace, ExperimentTraces
+from .SimpleTree import SimpleTree, Formula
 
 
-
+'''
+SATEncoding contains all the constraints for encoding the Learning Problem
+'''
 
 class SATEncoding:
-    """
-    - D is the depth of the tree
-    - lassoStartPosition denotes the position when the trace values start looping
-    - traces is 
-      - list of different recorded values (trace)
-      - each trace is a list of recordings at time units (time point)
-      - each time point is a list of variable values (x1,..., xk)
-    """
-    def __init__(self, formulaDepth, regexDepth, testTraces, dfaSize): 
+
+    def __init__(self, formulaDepth, regexDepth, testTraces): 
         
-        #allofPSL
+        #all PSL operators
         self.Operators = ['G', 'F', '!', 'U', '&','|', '->', 'X', '|->','+', '.', '*']
         self.unaryOperators = ['G', 'F', '!', 'X', '*']
         self.binaryOperators = ['&', '|', 'U', '->', '|->', '+', '.']
         self.pslOperators= ['G', 'F', '!', 'U', '&', '|', '->', 'X', '|->']
         self.regexOperators= ['+', '.', '*', '&', '|']
         
-        #onlytriggers
-        '''self.Operators = ['!', '&','|', '->', '|->','+', '.', '*']
-        self.unaryOperators = ['!', '*']
-        self.binaryOperators = ['&', '|', '->', '|->', '+', '.']
-        self.pslOperators= ['!', '&', '|', '->', '|->']
-        self.regexOperators= ['+', '.', '*']
-        '''
         self.solver = Solver()
         self.formulaDepth = formulaDepth
         self.regexDepth = regexDepth
-        #print('formuladepth', formulaDepth)
-        #print('regexdepth', regexDepth)
+
 
         self.traces = testTraces
-        self.dfaSize=dfaSize
         
         self.pslVariables = [i for i in range(self.traces.numVariables)]+['true']
         self.regexVariables = self.pslVariables+['epsilon']
         self.variables=self.regexVariables
 
         for trace in (self.traces.acceptedTraces + self.traces.rejectedTraces):
-          trace.extendedTrace(2**(self.regexDepth))
+          nfaSize = 2*(self.regexDepth)+3 # change this for a better bound for unrolling words
+          trace.extendedTrace(nfaSize)
         
 
     def getInformativeVariables(self):
@@ -56,14 +43,14 @@ class SATEncoding:
         res += [v for v in self.z.values()]
 
         return res
-    """    
+    '''    
     the working variables are 
         - x[p][o]: p is a subformula (row) identifier, o is an operator or a propositional variable. Meaning is "subformula is an operator (variable) o"
         - l[p][q]:  "left operand of subformula i is subformula j"
         - r[p][q]: "right operand of subformula i is subformula j"
         - y[i][p][traceId]: semantics of formula at p in time point i of trace number traceId
       	- z[i][j][p][traceId]: semantics of regex at p in i subword (i,j) of trace traceId
-    """
+    '''
     
     def encodeFormula(self, unsatCore=True):
         self.operatorsAndVariables = self.Operators + self.variables
@@ -90,22 +77,19 @@ class SATEncoding:
                   for j in range(i,trace.extendedTraceLength+1)\
                   for p in range(self.regexDepth)}
 
-        #for traceId, trace in enumerate(self.traces.acceptedTraces + self.traces.rejectedTraces):
-        #  print(trace.lengthOfTrace)
-      
-
         self.solver.set(unsat_core=unsatCore)
 
+        
+        #structural constriaints
         self.exactlyOneOperator()       
         self.firstOperatorVariable()
         self.lastOperatorPSL()
         self.operatorOrdering()
         self.noDanglingVariables()
+        
+        #constraints for consistency
         self.variableSemantics()
-        #self.regexVariableSemantics()
-        self.operatorsSemantics()
-        
-        
+        self.operatorsSemantics() 
         self.solver.assert_and_track(And( [ self.y[(0, self.formulaDepth - 1, traceId)]\
                                                   for traceId in range(len(self.traces.acceptedTraces))] ),\
                                            'accepted traces should be accepting')
@@ -624,9 +608,12 @@ class SATEncoding:
 
 
 
+    
     def reconstructWholeFormula(self, model):
         return self.reconstructFormula(self.formulaDepth-1, model)   
         
+    
+
     def reconstructFormula(self, rowId, model):
         def getValue(row, vars):
             tt = [k[1] for k in vars if k[0] == row and model[vars[k]] == True]
