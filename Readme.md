@@ -9,7 +9,7 @@ The method used for solving the learning problem can be found in [this](https://
 
 ```
 vitualenv -p python3 venv
-source venv\bin\activate
+source venv/bin/activate
 ```
 
 - For installing necessary python packages, run 
