@@ -27,11 +27,11 @@ This command can, also, take the arguments listed in the table below.
 |Argument        |Meaning
 |----------------|------------------------------
 |-t \<filename>| specifies the path of the trace file on which the PSL learner is applied.
-|-tf \<foldername>|specifies the folder containing of the trace files on which the PSL learner is applied.
+|-tf \<foldername>|specifies the folder containing  the trace files on which the PSL learner is applied.
 |-d | specifies the maximum depth of the output formulas
 |-rd| specifies the maximum depth of the regular expressions in the output formulas
 |-o| specifies the name of the output csv file
-|-h| Outputs the help.
+|-h| outputs the help.
 
 
 ### Experiment Trace File Format
