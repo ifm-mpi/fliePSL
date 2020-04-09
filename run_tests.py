@@ -12,15 +12,15 @@ def main():
     #Allowed arguments for the learner
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--traces_file", dest="tracesFileName", default="allTests/dummy.trace",\
-                            help='name of the file to run the PSL learner')
+                            help='specifies the name of the file to run the PSL learner')
     parser.add_argument("-tf", "--traces_folder", dest="tracesFolderName", default=None,\
-                            help='name of the folder containing .trace files to run the PSL learner')
+                            help='specifies the name of the folder containing .trace files to run the PSL learner')
     parser.add_argument("-d", "--max_depth", dest="maxDepth", default='10',\
-                            help='maximum depth of the output formula')
+                            help='specifies the maximum depth of the output formula')
     parser.add_argument("-rd", "--max_regexDepth", dest="maxRegexDepth", default='5',\
-                            help='maximum depth of the regular expression in the output formula')
+                            help='specifies the maximum depth of the regular expression in the output formula')
     parser.add_argument("-o", "--output_file", dest="outputFile", default='out',\
-                            help='name of the output csv file')
+                            help='specifies the name of the output csv file')
     args,unknown = parser.parse_known_args()
 
     tracesFileName = args.tracesFileName
