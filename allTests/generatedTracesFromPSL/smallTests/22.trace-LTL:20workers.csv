@@ -1,1 +1,0 @@
-allTests/generatedTracesFromPSL/smallTests/22.trace,LTL,224.6766950506717,7,((X x0) & (G (x0 U (X (X (X x0))))))

@@ -1,1 +1,0 @@
-allTests/generatedTracesFromLTL/baseTest/0006.trace,LTL,535.9223405728117,6,((x0 -> x1) U ((F x1) -> x1))

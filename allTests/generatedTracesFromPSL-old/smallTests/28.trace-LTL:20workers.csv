@@ -1,1 +1,0 @@
-allTests/generatedTracesFromPSL/smallTests/28.trace,LTL,9.319172210991383,6,(((X x1) U (X (X x1))) U (! (X x1)))

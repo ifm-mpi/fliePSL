@@ -1,1 +1,0 @@
-allTests/generatedTracesFromPSL/(((x0 . true) *) |-> (X x0))/100traces;len:7;vars:1.trace,LTL,727.7829771507531,7,(x0 -> ((X (X x0)) & (G ((X x0) U x0))))

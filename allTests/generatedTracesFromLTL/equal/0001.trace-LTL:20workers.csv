@@ -1,1 +1,0 @@
-allTests/generatedTracesFromLTL/equal/0001.trace,LTL,662.9809186006896,6,((F ((! x0) U x1)) -> ((! x0) U x1))

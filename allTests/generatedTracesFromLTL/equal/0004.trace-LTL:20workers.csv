@@ -1,1 +1,0 @@
-allTests/generatedTracesFromLTL/equal/0004.trace,LTL,1735.344531236682,6,((F ((x0 -> x1) U x1)) -> ((x0 -> x1) U x1))
