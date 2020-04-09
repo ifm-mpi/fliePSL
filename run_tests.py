@@ -6,8 +6,8 @@ import subprocess
 import argparse
 
 
-def subprocess_calls(tracesFileName, formulaSyntax, description, maxDepth, maxRegexDepth):
-    cmd=['python', 'run_tests.py', '-t', tracesFileName, '-o', outputFile, '-d', maxDepth, 'rd', maxRegexDepth]
+def subprocess_calls(tracesFileName, description, maxDepth, maxRegexDepth):
+    cmd=['python', 'run_tests.py', '-t', tracesFileName, '-d', maxDepth, 'rd', maxRegexDepth, '-o', description,]
     subprocess.run(cmd)
 
 

@@ -4,11 +4,7 @@ import re
 
 unary_operators = ['G', 'F', '!', 'X', '*']
 binary_operators = ['&', '|', 'U', '->', '|->', '+', '.']
-'''
-#onlytriggers
-unary_operators = ['!', '*']
-binary_operators = ['&', '|', '->', '|->', '+', '.']
-'''
+
 
 class SimpleTree:
     def __init__(self, label = "dummy"):
@@ -84,6 +80,9 @@ class SimpleTree:
         elif self.left != None and self.right != None:
             return self.label + '(' + self.left.__repr__() + ',' + self.right.__repr__() + ')'
 
+'''
+A class for encoding syntax Trees and syntax DAGs of PSL formulas
+'''
 
 class Formula(SimpleTree):
     

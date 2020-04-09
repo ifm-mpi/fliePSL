@@ -79,6 +79,11 @@ class Trace:
             modpos=self.uLength + ((currentpos-self.uLength)%self.vLength)
             return modpos
 
+'''
+Experiment Traces contains a list of traces partitioned into
+tracesToAccept and tracesToReject
+'''
+
 
 class ExperimentTraces:
     def __init__(self, tracesToAccept=None, tracesToReject=None):
@@ -91,10 +96,6 @@ class ExperimentTraces:
             self.rejectedTraces = tracesToReject
         else:
             self.rejectedTraces = []
-
-
-
- 
 
 
     def __repr__(self):
