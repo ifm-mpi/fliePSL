@@ -6,6 +6,11 @@ import subprocess
 import argparse
 
 
+def subprocess_calls(tracesFileName, formulaSyntax, description, maxDepth, maxRegexDepth):
+    cmd=['python', 'run_tests.py', '-t', tracesFileName, '-o', outputFile, '-d', maxDepth, 'rd', maxRegexDepth]
+    subprocess.run(cmd)
+
+
 
 def main():
 
@@ -17,7 +22,7 @@ def main():
                             help='specifies the name of the folder containing .trace files to run the PSL learner')
     parser.add_argument("-d", "--max_depth", dest="maxDepth", default='10',\
                             help='specifies the maximum depth of the output formula')
-    parser.add_argument("-rd", "--max_regexDepth", dest="maxRegexDepth", default='5',\
+    parser.add_argument("-rd", "--max_regex_depth", dest="maxRegexDepth", default='5',\
                             help='specifies the maximum depth of the regular expression in the output formula')
     parser.add_argument("-o", "--output_file", dest="outputFile", default='out',\
                             help='specifies the name of the output csv file')
