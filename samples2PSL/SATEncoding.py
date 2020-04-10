@@ -7,6 +7,14 @@ from .SimpleTree import SimpleTree, Formula
 SATEncoding contains all the constraints for encoding the Learning Problem
 '''
 
+'''
+Finite traces changes done so far
+- nfaSize=0
+- checked extended trace length (temp)
+- changes in semantics of X, U, F, G only
+
+'''
+
 class SATEncoding:
 
     def __init__(self, formulaDepth, regexDepth, testTraces): 
@@ -30,7 +38,8 @@ class SATEncoding:
         self.variables=self.regexVariables
 
         for trace in (self.traces.acceptedTraces + self.traces.rejectedTraces):
-          nfaSize = 2*(self.regexDepth)+3 # change this for a better bound for unrolling words
+          #nfaSize = 2*(self.regexDepth)+3 # change this for a better bound for unrolling words
+          nfaSize = 0 #for finite traces length of extendend trace is equal to the trace
           trace.extendedTrace(nfaSize)
         
 
@@ -95,7 +104,7 @@ class SATEncoding:
                                            'accepted traces should be accepting')
         self.solver.assert_and_track(And([ Not(self.y[(0, self.formulaDepth - 1, traceId)])\
                                                   for traceId in range(len(self.traces.acceptedTraces), len(self.traces.acceptedTraces+self.traces.rejectedTraces))] ),\
-                                     'rejecting traces should be rejected')
+                                          'rejecting traces should be rejected')
         
     
     def exactlyOneOperator(self):
@@ -367,7 +376,7 @@ class SATEncoding:
                                                                                  for j in range(i,trace.extendedTraceLength+1)]
                                                                                )\
                                                                            )\
-                                                                          for q in range(p) for q_prime in range(p) ])),\
+                                                                          for q in range(p) for q_prime in range(p)])),\
                                                              'semantics of concat operator for trace %d and depth %d'%(traceId, p))
 
                 if '*' in self.Operators:
@@ -443,7 +452,7 @@ class SATEncoding:
                                                                                 ==\
                                                                                 Or(\
                                                                                    [ self.y[(i, q, traceId)],\
-                                                                                    self.y[( i, q_prime, traceId)]]\
+                                                                                    self.y[(i, q_prime, traceId)]]\
                                                                                    )\
                                                                                 for i in range(trace.lengthOfTrace)]\
                                                                                )\
@@ -510,6 +519,7 @@ class SATEncoding:
                                                            ),\
                                                    'semantics of negation for trace %d and depth %d' % (traceId, p)\
                                                    )
+                '''
                 if 'G' in self.Operators:
                       #globally                
                       self.solver.assert_and_track(Implies(self.x[(p, 'G')],\
@@ -583,7 +593,83 @@ class SATEncoding:
                                                                          )\
                                                                 for q in range(self.regexDepth, p) for q_prime in range(self.regexDepth, p)])),\
                                                     'semantics of Until operator for trace %d and depth %d'%(traceId, p))
+                '''
 
+                if 'G' in self.Operators:
+                      #globally                
+                      self.solver.assert_and_track(Implies(self.x[(p, 'G')],\
+                                                           And([\
+                                                               Implies(\
+                                                                         self.l[(p,q)],\
+                                                                         And([\
+                                                                              self.y[(i, p, traceId)] ==\
+                                                                              And([self.y[(j, q, traceId)] for j in range(i, trace.lengthOfTrace) ])\
+                                                                              for i in range(trace.lengthOfTrace)\
+                                                                              ])\
+                                                                          )\
+                                                               for q in range(self.regexDepth,p)\
+                                                               ])\
+                                                           ),\
+                                                   'semantics of globally operator for trace %d and depth %d' % (traceId, p)\
+                                                   )
+
+                if 'F' in self.Operators:                  
+                      #finally                
+                      self.solver.assert_and_track(Implies(self.x[(p, 'F')],\
+                                                           And([\
+                                                               Implies(\
+                                                                         self.l[(p,q)],\
+                                                                         And([\
+                                                                              self.y[(i, p, traceId)] ==\
+                                                                              Or([self.y[(j, q, traceId)] for j in range(i, trace.lengthOfTrace) ])\
+                                                                              for i in range(trace.lengthOfTrace)\
+                                                                              ])\
+                                                                          )\
+                                                               for q in range(self.regexDepth,p)\
+                                                               ])\
+                                                           ),\
+                                                   'semantics of finally operator for trace %d and depth %d' % (traceId, p)\
+                                                   )
+
+
+                if 'X' in self.Operators: 
+                     self.solver.assert_and_track(Implies(self.x[(p, 'X')],\
+                                                           And([\
+                                                               Implies(\
+                                                                         self.l[(p,q)],\
+                                                                         And([self.y[(i, p, traceId)] ==\
+                                                                              self.y[(trace.nextPos(i), q, traceId)]\
+                                                                              for i in range(trace.lengthOfTrace-1)]+\
+                                                                              [Not(self.y[(trace.lengthOfTrace-1, p, traceId)])])\
+                                                                          )\
+                                                               for q in range(self.regexDepth,p)\
+                                                               ])\
+                                                           ),\
+                                                   'semantics of neXt operator for trace %d and depth %d' % (traceId, p)\
+                                                   )
+
+                                                  
+                if 'U' in self.Operators:
+                    #until
+                    self.solver.assert_and_track(Implies(self.x[(p, 'U')],\
+                                                          And([ Implies(\
+                                                                         And(\
+                                                                             [self.l[(p, q)], self.r[(p, q_prime)]]\
+                                                                             ),\
+                                                                         And([\
+                                                                            self.y[(i, p, traceId)] ==\
+                                                                            Or([\
+                                                                                And(\
+                                                                                    [self.y[(j, q, traceId)] for j in range(i,k)]+\
+                                                                                    [self.y[(k, q_prime, traceId)]]\
+                                                                                    )\
+                                                                                for k in range(i, trace.lengthOfTrace)\
+                                                                                ])\
+                                                                            for i in range(trace.lengthOfTrace)]\
+                                                                             )\
+                                                                         )\
+                                                                for q in range(self.regexDepth, p) for q_prime in range(self.regexDepth, p)])),\
+                                                    'semantics of Until operator for trace %d and depth %d'%(traceId, p))
 
                 if '|->' in self.Operators:
                       #triggers

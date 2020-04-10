@@ -11,7 +11,7 @@ def main():
 
     #Allowed arguments for the learner
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--traces_file", dest="tracesFileName", default="allTests/dummy.trace",\
+    parser.add_argument("-t", "--traces_file", dest="tracesFileName", default="allTraces/dummy.trace",\
                             help='specifies the name of the file to run the PSL learner')
     parser.add_argument("-tf", "--traces_folder", dest="tracesFolderName", default=None,\
                             help='specifies the name of the folder containing .trace files to run the PSL learner')
