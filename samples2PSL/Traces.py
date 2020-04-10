@@ -1,3 +1,4 @@
+
 #coverts traces from file to class Trace type
 def lineToTrace(line):
     lassoStart = None

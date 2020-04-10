@@ -9,14 +9,14 @@ import logging
 import time
 import csv
 
-def generate_info(tracesFileName, maxDepth, maxRegexDepth):
+def generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics):
     
     t0=time.time()
 
     traces = ExperimentTraces()
     traces.readTracesFromFile(tracesFileName)
 
-    formulas = get_models(finalDepth=maxDepth, maxRegexDepth=maxRegexDepth, traces=traces)
+    formulas = get_models(maxDepth, maxRegexDepth, traces, finiteSemantics)
     form=formulas[0]
 
     t1=time.time()
@@ -27,19 +27,19 @@ def generate_info(tracesFileName, maxDepth, maxRegexDepth):
 
 
 
-def run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile):
+def run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics):
           
-    with open(tracesFileName+'-'+outputFile+'.csv', 'w') as file:
+    with open(tracesFileName+'-'+outputFile+'.csv', 'a') as file:
         writer = csv.writer(file)
 
         csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
-        csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth))
+        csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics))
         
         writer.writerows(csvInfo)
 
 
     
-def run_multiple_file(tracesFolderName, maxDepth, maxRegexDepth, outputFile):
+def run_multiple_file(tracesFolderName, maxDepth, maxRegexDepth, outputFile, finiteSemantics):
     
     with open(tracesFolderName+'-'+outputFile+'.csv', 'w') as file:
         for root, dirs, files in os.walk(tracesFolderName):
@@ -49,7 +49,7 @@ def run_multiple_file(tracesFolderName, maxDepth, maxRegexDepth, outputFile):
 
         csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
         for tracesFileName in tracesFileList:
-            csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth))
+            csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics))
 
         writer.writerows(csvInfo)
 

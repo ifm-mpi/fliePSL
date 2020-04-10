@@ -18,15 +18,14 @@ def genIterationSeq(max_i, max_j):
 
 
 
-def get_models(finalDepth, maxRegexDepth, traces):
+def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics):
     results = []
-    iteration_seq = genIterationSeq(finalDepth, maxRegexDepth)
+    iteration_seq = genIterationSeq(maxDepth, maxRegexDepth)
     
-    for (i,j) in iteration_seq:
-        
+    for (depth,regexDepth) in iteration_seq:
         
         t_create=time.time()
-        fg = SATEncoding(i, j, traces)
+        fg = SATEncoding(depth, regexDepth, traces, finiteSemantics)
         fg.encodeFormula()
         t_create=time.time()-t_create
         
