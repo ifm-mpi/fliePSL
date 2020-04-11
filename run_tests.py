@@ -36,8 +36,9 @@ def main():
     maxDepth = int(args.max_depth)
     maxRegexDepth =int(args.max_regex_depth)
     outputFile = args.output_file 
-    finiteSemantics = args.finite_semantics
+    finiteSemantics = bool(args.finite_semantics)
 
+    print(finiteSemantics)
     
     if (tracesFolderName==None):
         run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics)

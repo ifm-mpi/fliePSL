@@ -39,6 +39,7 @@ class multiprocess:
 		self.maxRegexDepth = maxRegexDepth
 		self.numWorkers = numWorkers
 		self.timeOut = timeOut
+		self.finiteSemantics = str(finiteSemantics)
 		self.fullOutputFile = self.outputFile + '-' + self.numWorkers + 'workers'
 		self.tracesFileList = []
 		for root, dirs, files in os.walk(self.tracesFolderName):
@@ -54,8 +55,8 @@ class multiprocess:
 		q.empty()
 
 		for tracesFileName in self.tracesFileList:
-			q.enqueue(subprocess_calls, args=(tracesFileName, self.fullOutputFile, self.maxDepth, self.maxRegexDepth),\
-												job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
+			q.enqueue(subprocess_calls, args=(tracesFileName, self.fullOutputFile, self.maxDepth,\
+			 self.maxRegexDepth, self.finiteSemantics), job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
 
 		print('Length of queue', len(q))
 
