@@ -18,14 +18,15 @@ def genIterationSeq(max_i, max_j):
 
 
 
-def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics):
+def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics, chooseOperators):
     results = []
     iteration_seq = genIterationSeq(maxDepth, maxRegexDepth)
     
     for (depth,regexDepth) in iteration_seq:
         
         t_create=time.time()
-        fg = SATEncoding(depth, regexDepth, traces, finiteSemantics)
+
+        fg = SATEncoding(depth, regexDepth, traces, finiteSemantics, chooseOperators)
         fg.encodeFormula()
         t_create=time.time()-t_create
         
@@ -34,6 +35,7 @@ def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics):
         t_solve=time.time()-t_solve
 
         #Print this to see constraint creation time and constraint solving time separately
+        print(depth, regexDepth)
         #print((i,j), "Creating time:", t_create, "Solving time:", t_solve)
         
         if solverRes == sat:

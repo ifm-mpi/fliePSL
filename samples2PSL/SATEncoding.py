@@ -6,10 +6,15 @@ from .SimpleTree import SimpleTree, Formula
 '''
 SATEncoding contains all the constraints for encoding the Learning Problem
 '''
+def intersection(list1, list2):
+  return list(set(list1)&set(list2))
+
+
+
 
 class SATEncoding:
 
-    def __init__(self, formulaDepth, regexDepth, testTraces, finiteSemantics): 
+    def __init__(self, formulaDepth, regexDepth, testTraces, finiteSemantics, chooseOperators): 
         
         #all PSL operators
         self.Operators = ['G', 'F', '!', 'U', '&','|', '->', 'X', '|->','+', '.', '*']
@@ -18,15 +23,24 @@ class SATEncoding:
         self.pslOperators= ['G', 'F', '!', 'U', '&', '|', '->', 'X', '|->']
         self.regexOperators= ['+', '.', '*', '&', '|']
         
+        
+
+
+        if chooseOperators:
+          self.chosenOperators = testTraces.operators
+          self.Operators = self.chosenOperators
+          self.unaryOperators = intersection(self.Operators, self.unaryOperators)
+          self.binaryOperators = intersection(self.Operators, self.binaryOperators)
+          self.pslOperators = intersection(self.Operators, self.pslOperators)
+          self.regexOperators = intersection(self.Operators, self.regexOperators)
+
         self.solver = Solver()
         self.formulaDepth = formulaDepth
         self.regexDepth = regexDepth
         self.finiteSemantics = finiteSemantics
 
 
-
-        self.traces = testTraces
-        
+        self.traces = testTraces        
         self.pslVariables = [i for i in range(self.traces.numVariables)]+['true']
         self.regexVariables = self.pslVariables+['epsilon']
         self.variables=self.regexVariables
@@ -238,7 +252,7 @@ class SATEncoding:
                                                             Or([self.l[(p, q)] for q in range(p)]),\
                                                                    ),\
                                                              "regex operator" +str(o)+ "leftChild is regex operator at "+str(p))
-          for o in ['+', '.']:
+          for o in intersection(self.regexOperators, self.binaryOperators):
             self.solver.assert_and_track(Implies(self.x[(p, o)],\
                                                             Or([self.r[(p, q)] for q in range(p)]),\
                                                                    ),\
@@ -248,23 +262,24 @@ class SATEncoding:
 
 
         for p in range(self.regexDepth, self.formulaDepth):
-          self.solver.assert_and_track(Implies(self.x[(p, '|->')],\
+          if '|->' in self.Operators:
+            self.solver.assert_and_track(Implies(self.x[(p, '|->')],\
                                                             Or([self.l[(p, q)] for q in range(self.regexDepth)]),\
                                                                    ),\
                                                              "PSL operator |->  leftChild is regex operator at "+str(p))
 
-          self.solver.assert_and_track(Implies(self.x[(p, '|->')],\
+            self.solver.assert_and_track(Implies(self.x[(p, '|->')],\
                                                             Or([self.r[(p, q)] for q in range(self.regexDepth, p)]),\
                                                                    ),\
                                                              "PSL operator |-> rightChild is PSL operator at "+str(p))
  
 
-          for o in ['G', 'F', '!', 'U', '&', '|', '->', 'X']:
+          for o in intersection(['G', 'F', '!', 'U', '&', '|', '->', 'X'], self.Operators):
             self.solver.assert_and_track(Implies(self.x[(p, o)],\
                                                             Or([self.l[(p, q)] for q in range(self.regexDepth, p)]),\
                                                                    ),\
                                                              "PSL operator "+str(o)+" leftChild is PSL operator"+str(p))
-          for o in ['U', '&', '|', '->']:
+          for o in intersection(['U', '&', '|', '->'], self.Operators):
             self.solver.assert_and_track(Implies(self.x[(p, o)],\
                                                             Or([self.r[(p, q_prime)] for q_prime in range(self.regexDepth, p)]),\
                                                                    ),\

@@ -98,6 +98,9 @@ class ExperimentTraces:
         else:
             self.rejectedTraces = []
 
+        self.operators = []
+        self.maxDepth = 10 #default is 10
+
 
     def __repr__(self):
         returnString = ""
@@ -130,6 +133,11 @@ class ExperimentTraces:
                     trace = lineToTrace(line)
                     trace.intendedEvaluation = False
                     self.rejectedTraces.append(trace)
+
+                elif readingMode == 2:
+                    self.operators = line.rstrip('\n').split(',')
+                elif readingMode == 3:
+                    self.maxDepth = int(line.rstrip('\n'))
                 else:
                     break
         try:

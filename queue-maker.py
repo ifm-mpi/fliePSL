@@ -31,8 +31,9 @@ python queue-maker.py -tf <foldername> -o <outputfilename> -k <timeout> -nw <num
 '''
 class multiprocess:
 
-	def __init__(self, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics):
+	def __init__(self, args, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics):
 		
+		self.args = args
 		self.tracesFolderName = tracesFolderName
 		self.outputFile = outputFile
 		self.maxDepth = maxDepth
@@ -55,8 +56,7 @@ class multiprocess:
 		q.empty()
 
 		for tracesFileName in self.tracesFileList:
-			q.enqueue(subprocess_calls, args=(tracesFileName, self.fullOutputFile, self.maxDepth,\
-			 self.maxRegexDepth, self.finiteSemantics), job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
+			q.enqueue(subprocess_calls, args=self.args, job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
 
 		print('Length of queue', len(q))
 
@@ -98,6 +98,7 @@ def main():
 
 	args,unknown = parser.parse_known_args()
 
+	print(dict(args))
 
 	tracesFolderName = args.traces_folder
 	maxDepth = args.max_depth
@@ -107,16 +108,11 @@ def main():
 	numWorkers=args.numWorkers
 	finiteSemantics = args.finite_semantics
 
-	tracesFileList = []
-	for root, dirs, files in os.walk(tracesFolderName):
-		for file in files:
-			if file.endswith('.trace'):
-				tracesFileList.append(str(os.path.join(root, file)))
-
-	m = multiprocess(tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics)
+	
+	m = multiprocess(args, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics)
 
 	
-	m.populate_queue()#comment this out for compiling results
+	#m.populate_queue()#comment this out for compiling results
 	#m.compile_results()#uncomment this for compiling results
 
 

@@ -29,6 +29,8 @@ def main():
                             help='specify the name of the output csv file')
     parser.add_argument("-f", "--finite_semantics", default=False, action="store_true",\
                             help='specify this option if the traces are of finite length')
+    parser.add_argument("-co", "--choose_operators", default=False, action="store_true",\
+                            help='specify this option to use only the operators provided in the traces file')
     args,unknown = parser.parse_known_args()
 
     tracesFileName = args.traces_file
@@ -37,12 +39,13 @@ def main():
     maxRegexDepth =int(args.max_regex_depth)
     outputFile = args.output_file 
     finiteSemantics = bool(args.finite_semantics)
+    chooseOperators = bool(args.choose_operators)
 
     
     if (tracesFolderName==None):
-        run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics)
+        run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics, chooseOperators)
     else:       
-        run_multiple_file(racesFolderName, maxDepth, maxRegexDepth, outputFile, finiteSemantics)
+        run_multiple_file(racesFolderName, maxDepth, maxRegexDepth, outputFile, finiteSemantics, chooseOperators)
 
 
 
