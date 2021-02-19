@@ -740,7 +740,7 @@ class SATEncoding:
           if operator=='true' or operator=='epsilon':
             return Formula(operator)
           else:
-            return Formula('x'+str(operator))
+            return Formula(chr(ord('p')+operator))
         elif operator in self.unaryOperators:
             leftChild = getValue(rowId, self.l)
             return Formula([operator, self.reconstructFormula(leftChild, model)])
