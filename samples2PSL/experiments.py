@@ -26,7 +26,8 @@ def generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics, choo
     t1=time.time()
     timePassed=t1-t0
 
-    print('Formula:', form.prettyPrint(), 'Time:', timePassed)
+    print('Formula:', form.prettyPrint())
+    print('Time:', timePassed)
     return [tracesFileName, str(timePassed), str(form.getNumberOfSubformulas()), str(form.prettyPrint())]
 
 

@@ -11,7 +11,7 @@ from samples2PSL.SimpleTree import Formula
 def genIterationSeq(max_i, max_j):
     iteration_seq=[(1,0)]
     for i in range(2, max_i):
-        end_j=min(i-1, max_j)
+        end_j=min(i-2, max_j)
         for j in range(0, end_j):
                 iteration_seq.append((i,j))
     return iteration_seq
@@ -22,6 +22,7 @@ def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics, chooseOperators
     results = []
     iteration_seq = genIterationSeq(maxDepth, maxRegexDepth)
     
+    #print(iteration_seq)
     for (depth,regexDepth) in iteration_seq:
         
         t_create=time.time()
@@ -35,7 +36,7 @@ def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics, chooseOperators
         t_solve=time.time()-t_solve
 
         #Print this to see constraint creation time and constraint solving time separately
-        print(depth, regexDepth)
+        #print(depth, regexDepth)
         #print((i,j), "Creating time:", t_create, "Solving time:", t_solve)
         
         if solverRes == sat:

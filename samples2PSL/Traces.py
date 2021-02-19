@@ -99,7 +99,6 @@ class ExperimentTraces:
             self.rejectedTraces = []
 
         self.operators = []
-        self.maxDepth = 10 #default is 10
 
 
     def __repr__(self):
@@ -149,3 +148,18 @@ class ExperimentTraces:
     def readTracesFromFile(self, tracesFileName):
         with open(tracesFileName) as tracesFile:
             self.readTracesFromStream(tracesFile)
+
+
+    def writeTracesToFile(self, tracesFileName):
+        with open(tracesFileName, "w") as tracesFile:
+            for accTrace in self.acceptedTraces:
+                line = ';'.join(','.join(str(int(k)) for k in t) for t in accTrace.traceVector) + "::" + str(
+                    accTrace.lassoStart) + "\n"
+                tracesFile.write(line)
+            tracesFile.write("---\n")
+            for rejTrace in self.rejectedTraces:
+                line = ';'.join(','.join(str(int(k)) for k in t) for t in rejTrace.traceVector) + "::" + str(
+                    rejTrace.lassoStart) + "\n"
+                tracesFile.write(line)
+            tracesFile.write("---\n")
+            tracesFile.write(','.join(self.operators))
