@@ -14,25 +14,19 @@ def intersection(list1, list2):
 
 class SATEncoding:
 
-    def __init__(self, formulaDepth, regexDepth, testTraces, finiteSemantics, chooseOperators): 
+    def __init__(self, formulaDepth, regexDepth, testTraces, finiteSemantics): 
         
         #all PSL operators
-        self.Operators = ['G', 'F', '!', 'U', '&','|', '->', 'X', '|->','+', '.', '*']
-        self.unaryOperators = ['G', 'F', '!', 'X', '*']
-        self.binaryOperators = ['&', '|', 'U', '->', '|->', '+', '.']
-        self.pslOperators= ['G', 'F', '!', 'U', '&', '|', '->', 'X', '|->']
-        self.regexOperators= ['+', '.', '*', '&', '|']
-        
-        
+        if testTraces.operators == []:
+          self.Operators = ['G', 'F', '!', 'U', '&','|', '->', 'X', '|->','+', '.', '*']
+        else:
+          self.Operators =testTraces.Operators
 
 
-        if chooseOperators:
-          self.chosenOperators = testTraces.operators
-          self.Operators = self.chosenOperators
-          self.unaryOperators = intersection(self.Operators, self.unaryOperators)
-          self.binaryOperators = intersection(self.Operators, self.binaryOperators)
-          self.pslOperators = intersection(self.Operators, self.pslOperators)
-          self.regexOperators = intersection(self.Operators, self.regexOperators)
+        self.unaryOperators = intersection(self.Operators, ['G', 'F', '!', 'X', '*'])
+        self.binaryOperators = intersection(self.Operators, ['&', '|', 'U', '->', '|->', '+', '.'])
+        self.pslOperators = intersection(self.Operators, ['G', 'F', '!', 'U', '&', '|', '->', 'X', '|->'])
+        self.regexOperators = intersection(self.Operators, ['+', '.', '*', '&', '|'])
 
         self.solver = Solver()
         self.formulaDepth = formulaDepth

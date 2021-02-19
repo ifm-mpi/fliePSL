@@ -9,18 +9,15 @@ import logging
 import time
 import csv
 
-def generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics, chooseOperators):
+def generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics):
     
     t0=time.time()
 
     traces = ExperimentTraces()
     traces.readTracesFromFile(tracesFileName)
 
-    if chooseOperators and traces.operators == []:
-        raise Exception('Operators not provided')
 
-
-    formulas = get_models(maxDepth, maxRegexDepth, traces, finiteSemantics, chooseOperators)
+    formulas = get_models(maxDepth, maxRegexDepth, traces, finiteSemantics)
     form=formulas[0]
 
     t1=time.time()
@@ -32,13 +29,13 @@ def generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics, choo
 
 
 
-def run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics, chooseOperators):
+def run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, finiteSemantics):
           
     with open(tracesFileName+'-'+outputFile+'.csv', 'a') as file:
         writer = csv.writer(file)
 
         csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
-        csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics, chooseOperators))
+        csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, finiteSemantics))
         
         writer.writerows(csvInfo)
 
