@@ -116,16 +116,16 @@ class ExperimentTraces:
 
     def readTracesFromStream(self, stream):
         readingMode = 0
+
+        
         for line in stream:
             lassoStart = None
             if '---' in line:
                 readingMode += 1
             else:
                 if readingMode == 0:
-
                     trace = lineToTrace(line)
                     trace.intendedEvaluation = True
-
                     self.acceptedTraces.append(trace)
 
                 elif readingMode == 1:

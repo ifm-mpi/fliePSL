@@ -20,7 +20,7 @@ class SATEncoding:
         if testTraces.operators == []:
           self.Operators = ['G', 'F', '!', 'U', '&','|', '->', 'X', '|->','+', '.', '*']
         else:
-          self.Operators =testTraces.Operators
+          self.Operators =testTraces.operators
 
 
         self.unaryOperators = intersection(self.Operators, ['G', 'F', '!', 'X', '*'])
