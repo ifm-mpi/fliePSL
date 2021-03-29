@@ -31,9 +31,9 @@ python queue-maker.py -tf <foldername> -o <outputfilename> -k <timeout> -nw <num
 '''
 class multiprocess:
 
-	def __init__(self, args, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics):
+	def __init__(self, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics):
 		
-		self.args = args
+		
 		self.tracesFolderName = tracesFolderName
 		self.outputFile = outputFile
 		self.maxDepth = maxDepth
@@ -56,7 +56,8 @@ class multiprocess:
 		q.empty()
 
 		for tracesFileName in self.tracesFileList:
-			q.enqueue(subprocess_calls, args=self.args, job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
+			args_list = (tracesFileName, self.fullOutputFile, self.maxDepth, self.maxRegexDepth, self.finiteSemantics)	
+			q.enqueue(subprocess_calls, args=args_list, job_timeout=self.timeOut, job_id=tracesFileName+self.fullOutputFile)
 
 		print('Length of queue', len(q))
 
@@ -81,7 +82,7 @@ class multiprocess:
 
 def main():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-tf', '--traces_folder', default='allSamples/generatedFromPSL/smallSamples',\
+	parser.add_argument('-tf', '--traces_folder', default='new_examples',\
 							help='specify the name of the folder containing trace files')
 	parser.add_argument('-nw', '--num_workers', dest='numWorkers', default='20',\
 							help='specify the number of redis worker spawned for running experiments')
@@ -98,7 +99,6 @@ def main():
 
 	args,unknown = parser.parse_known_args()
 
-	print(dict(args))
 
 	tracesFolderName = args.traces_folder
 	maxDepth = args.max_depth
@@ -109,11 +109,11 @@ def main():
 	finiteSemantics = args.finite_semantics
 
 	
-	m = multiprocess(args, tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics)
+	m = multiprocess(tracesFolderName, outputFile, maxDepth, maxRegexDepth, numWorkers, timeOut, finiteSemantics)
 
 	
 	#m.populate_queue()#comment this out for compiling results
-	#m.compile_results()#uncomment this for compiling results
+	m.compile_results()#uncomment this for compiling results
 
 
 
