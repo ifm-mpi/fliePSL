@@ -8,8 +8,13 @@ from samples2PSL.SimpleTree import Formula
 
 
 #change this order for the change in iteration order
-def genIterationSeq(max_i, max_j):
+def genIterationSeq(max_i, max_j, only_ltl):
     iteration_seq=[(1,0)]
+    
+    if only_ltl:
+    	iteration_seq = [(i,0) for i in range(1, max_i)]
+    return iteration_seq
+    
     for i in range(2, max_i):
         end_j=min(i-2, max_j)
         for j in range(0, end_j):
@@ -18,16 +23,15 @@ def genIterationSeq(max_i, max_j):
 
 
 
-def get_models(maxDepth, maxRegexDepth, traces, finiteSemantics):
+def get_models(maxDepth, maxRegexDepth, traces, only_ltl, finiteSemantics):
     results = []
-    iteration_seq = genIterationSeq(maxDepth, maxRegexDepth)
-    
-    #print(iteration_seq)
+    iteration_seq = genIterationSeq(maxDepth, maxRegexDepth, only_ltl)
+ 
     for (depth,regexDepth) in iteration_seq:
         
         t_create=time.time()
 
-        fg = SATEncoding(depth, regexDepth, traces, finiteSemantics)
+        fg = SATEncoding(depth, regexDepth, traces, only_ltl, finiteSemantics)
         fg.encodeFormula()
         t_create=time.time()-t_create
         
