@@ -22,29 +22,33 @@ def generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSeman
     t1=time.time()
     timePassed=t1-t0
 
-    if formulas==None:
+    if formulas==[]:
         print('Formula:', 'Nope!')
         print('Time:', timePassed)
+
         return [tracesFileName, str(timePassed), '>'+str(maxDepth), 'Nope!']
     form=formulas[0]
 
     
     print('Formula:', form.prettyPrint())
+
     print('Time:', timePassed)
-    return [tracesFileName, str(timePassed), str(form.getNumberOfSubformulas()), str(form.prettyPrint())]
+
+
+    return [form, str(timePassed)]
 
 
 
-def run_single_file(tracesFileName, maxDepth, maxRegexDepth, outputFile, only_ltl, finiteSemantics):
+def run_single_file(tracesFileName, maxDepth=10, maxRegexDepth=5, outputFile='out', only_ltl=True, finiteSemantics=True):
           
     with open(tracesFileName+'-'+outputFile+'.csv', 'a') as file:
         writer = csv.writer(file)
 
         csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
-        csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSemantics))
+        #csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSemantics))
         
-        writer.writerows(csvInfo)
-
+        #writer.writerows(csvInfo)
+        return generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSemantics)
 
     
 def run_multiple_file(tracesFolderName, maxDepth, maxRegexDepth, outputFile, finiteSemantics):

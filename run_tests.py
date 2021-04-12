@@ -14,7 +14,7 @@ def subprocess_calls(tracesFileName, description, maxDepth, maxRegexDepth, finit
 
 
 def main():
-
+    #check
     #Allowed arguments for the learner
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--traces_file", default="dummy.trace",\

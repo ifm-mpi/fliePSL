@@ -1,5 +1,6 @@
 import pdb
-import re 
+import re
+from lark import Lark, Transformer
 
 
 unary_operators = ['G', 'F', '!', 'X', '*']
@@ -163,4 +164,56 @@ class Formula(SimpleTree):
             leftValue = self.left.getSetOfSubformulas()
         if self.right != None:
             rightValue = self.right.getSetOfSubformulas()
-        return list(set([repr(self)] + leftValue + rightValue))        
+        return list(set([repr(self)] + leftValue + rightValue))    
+
+    @classmethod
+    def convertTextToFormula(cls, formulaText):
+        
+        f = Formula()
+        try:
+            formula_parser = Lark(r"""
+                ?formula: _binary_expression
+                        |_unary_expression
+                        | constant
+                        | variable
+                !constant: "true"
+                        | "false"
+                _binary_expression: binary_operator "(" formula "," formula ")"
+                _unary_expression: unary_operator "(" formula ")"
+                variable: /[a-z]/
+                !binary_operator: "&" | "|" | "->" | "U"
+                !unary_operator: "F" | "G" | "!" | "X"
+                
+                %import common.SIGNED_NUMBER
+                %import common.WS
+                %ignore WS 
+             """, start = 'formula')
+        
+            
+            tree = formula_parser.parse(formulaText)
+            
+        except Exception as e:
+            print("can't parse formula %s" %formulaText)
+            print("error: %s" %e)
+            
+        
+        f = TreeToFormula().transform(tree)
+        return f
+            
+class TreeToFormula(Transformer):
+    def formula(self, formulaArgs):
+        
+        return Formula(formulaArgs)
+    def variable(self, varName):
+        return Formula([str(varName[0]), None, None])
+    def constant(self, arg):
+        if str(arg[0]) == "true":
+            connector = "|"
+        elif str(arg[0]) == "false":
+            connector = "&"
+        return Formula([connector, Formula(["p", None, None]), Formula(["!", Formula(["p", None, None] ), None])])
+            
+    def binary_operator(self, args):
+        return str(args[0])
+    def unary_operator(self, args):
+        return str(args[0])
