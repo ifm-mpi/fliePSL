@@ -41,10 +41,10 @@ def generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSeman
 
 def run_single_file(tracesFileName, maxDepth=10, maxRegexDepth=5, outputFile='out', only_ltl=True, finiteSemantics=True):
           
-    with open(tracesFileName+'-'+outputFile+'.csv', 'a') as file:
-        writer = csv.writer(file)
+    # with open(tracesFileName+'-'+outputFile+'.csv', 'a') as file:
+    #     writer = csv.writer(file)
 
-        csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
+    #     csvInfo = [['File Name', 'Time Passed', 'Formula Size', 'PSL formula']]
         #csvInfo.append(generate_info(tracesFileName, maxDepth, maxRegexDepth, only_ltl, finiteSemantics))
         
         #writer.writerows(csvInfo)
