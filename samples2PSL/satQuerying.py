@@ -28,7 +28,7 @@ def get_models(maxDepth, maxRegexDepth, traces, only_ltl, finiteSemantics):
     iteration_seq = genIterationSeq(maxDepth, maxRegexDepth, only_ltl)
  
     for (depth,regexDepth) in iteration_seq:
-        
+        print(depth, regexDepth)
         t_create=time.time()
 
         fg = SATEncoding(depth, regexDepth, traces, only_ltl, finiteSemantics)
