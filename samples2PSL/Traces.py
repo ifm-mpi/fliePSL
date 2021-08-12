@@ -136,7 +136,7 @@ class ExperimentTraces:
                 elif readingMode == 2:
                     self.operators = line.rstrip('\n').split(',')
                 elif readingMode == 3:
-                    self.maxDepth = int(line.rstrip('\n'))
+                    self.alphabet = list(line.split(','))
                 else:
                     break
         try:

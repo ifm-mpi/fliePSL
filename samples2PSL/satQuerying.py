@@ -26,7 +26,7 @@ def genIterationSeq(max_i, max_j, only_ltl):
 def get_models(maxDepth, maxRegexDepth, traces, only_ltl, finiteSemantics):
     results = []
     iteration_seq = genIterationSeq(maxDepth, maxRegexDepth, only_ltl)
- 
+    print(iteration_seq) 
     for (depth,regexDepth) in iteration_seq:
         print(depth, regexDepth)
         t_create=time.time()
