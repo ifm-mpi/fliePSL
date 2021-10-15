@@ -19,7 +19,6 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--traces_file", default="dummy.trace",\
                             help='specify the name of the file to run the PSL learner')
-
     parser.add_argument("-ltl", default=True, action="store_true",\
                             help='specify this option if only LTL operators have to be used')
     parser.add_argument("-tf", "--traces_folder", default=None,\

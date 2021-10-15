@@ -1,4 +1,3 @@
-
 #coverts traces from file to class Trace type
 def lineToTrace(line):
     lassoStart = None
@@ -18,11 +17,10 @@ def lineToTrace(line):
 -traceVector has two parts
     - u is the finite prefix, ending before 'lassoStart' 
     - v is the finite lasso, starting at position 'lassoStart'
-
 '''
 
-
 class Trace:
+
     def __init__(self, traceVector, lassoStart=None):
         self.lengthOfTrace = len(traceVector)
         if lassoStart != None:
@@ -39,8 +37,7 @@ class Trace:
         self.numVariables = len(traceVector[0])
         self.traceVector = traceVector
         self.literals = ["x" + str(i) for i in range(self.numVariables)]
-        
-        
+
     def __repr__(self):
         return repr(self.traceVector) + "\n" + repr(self.lassoStart) + "\n\n"
 
@@ -50,7 +47,7 @@ class Trace:
         else:
             return currentPos + 1
 
-    # returns all future positions required for Until operator
+    #returns all future positions required for Until operator
     def futurePos(self, currentPos):
         futurePositions = []
         alreadyGathered = set()
@@ -63,8 +60,10 @@ class Trace:
 
     # returns unrolled trace required for Triggers operator
     def extendedTrace(self, nfaSize=None):
+        
         if nfaSize==None:
               raise Exception("bounds for extending the trace is not provided")
+        
         extTrace=self.traceVector
         b=nfaSize
         v=[self.traceVector[i] for i in range(self.lassoStart, self.lengthOfTrace)]
@@ -74,6 +73,7 @@ class Trace:
         return extTrace
 
     def inTracePosition(self, currentpos):
+        
         if currentpos<self.lengthOfTrace:
             return currentpos
         else:
@@ -85,9 +85,10 @@ Experiment Traces contains a list of traces partitioned into
 tracesToAccept and tracesToReject
 '''
 
-
 class ExperimentTraces:
+
     def __init__(self, tracesToAccept=None, tracesToReject=None):
+        
         if tracesToAccept != None:
             self.acceptedTraces = tracesToAccept
         else:
@@ -102,6 +103,7 @@ class ExperimentTraces:
 
 
     def __repr__(self):
+        
         returnString = ""
         returnString += "accepted traces:\n"
         for trace in self.acceptedTraces:
@@ -113,11 +115,10 @@ class ExperimentTraces:
         return returnString
 
 
-
     def readTracesFromStream(self, stream):
-        readingMode = 0
-
         
+        readingMode = 0
+    
         for line in stream:
             lassoStart = None
             if '---' in line:
@@ -143,6 +144,9 @@ class ExperimentTraces:
             self.numVariables = self.acceptedTraces[0].numVariables
         except:
             self.numVariables = self.rejectedTraces[0].numVariables
+
+        if readingMode != 3:
+            self.alphabet = [chr(ord('p')+i) for i in range(self.numVariables)]
 
 
     def readTracesFromFile(self, tracesFileName):
